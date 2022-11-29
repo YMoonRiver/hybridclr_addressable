@@ -1,0 +1,2 @@
+for /f "delims=\" %%a in ('dir /b /a-d /o-d "../../../../../File/protofile/"') do protoc -I=../../../../../File/protofile --lua_out=../../../Assets/Lua/Protof --plugin=protoc-gen-lua="protoc-gen-lua.bat" ../../../../../File/protofile/%%a
+pause

@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hall
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e156e4ac4c0b8c946b5bf2f0f2cb0a05, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 31f755200ed3a81459a40f6db2b28fd0, type: 3}
+  - {fileID: 21300000, guid: e7d0aa2119e8f65409d1ff804adb1da3, type: 3}
+  - {fileID: 21300000, guid: 24bbd831df4e74343a93ff7cf3c1e947, type: 3}
+  - {fileID: 21300000, guid: 2587ce51ff3288c45b1aa907246c640b, type: 3}
+  - {fileID: 21300000, guid: ab26fb720875ec649891928c1b093cad, type: 3}
+  - {fileID: 21300000, guid: b0a316e25e006b44ab428b13bd8d8839, type: 3}
+  - {fileID: 21300000, guid: 93ca2c1414ce2354fa654e6cb576f235, type: 3}
+  - {fileID: 21300000, guid: 5509592461f66ab469c280af188de69c, type: 3}
+  - {fileID: 21300000, guid: bbd63be4ca8f82d49a1139f7f4b738c8, type: 3}
+  - {fileID: 21300000, guid: dad44ee49ae375f429a8dc189d128af8, type: 3}
+  - {fileID: 21300000, guid: 140e51058d2181b4ea53e654960db131, type: 3}
+  - {fileID: 21300000, guid: dd53289625deb3b4493090eb760ad16a, type: 3}
+  - {fileID: 21300000, guid: 76d72a964ec262f4aaa165ff3eb129a0, type: 3}
+  - {fileID: 21300000, guid: fd511b0720259a342b4dd58cdaa20bc9, type: 3}
+  - {fileID: 21300000, guid: 6c6a68a79696e7e4abf6530c6c73b32c, type: 3}
+  - {fileID: 21300000, guid: 23af9168929fd044790f0d91cd064bbd, type: 3}
+  - {fileID: 21300000, guid: b6875b2998befc741ae3784563ce5e34, type: 3}
+  - {fileID: 21300000, guid: 659eda396fa71ba4186f9c7181079353, type: 3}
+  - {fileID: 21300000, guid: e3202b996b77b7c409d488694bc83303, type: 3}
+  - {fileID: 21300000, guid: c6ef26e9f3b505b4a97ae303e63e67db, type: 3}
+  - {fileID: 21300000, guid: b981c38aed6d5a9438d30a25aa5305ce, type: 3}
+  - {fileID: 21300000, guid: f9fc6eeae80f92f458ed34f28cc56a39, type: 3}
+  - {fileID: 21300000, guid: 4b9fb6bb495f3374ab48a22187ececad, type: 3}
+  - {fileID: 21300000, guid: 27a4aadb474837e4994c8e870df940bb, type: 3}
+  - {fileID: 21300000, guid: 4ebdb1ac370c0d946950477b7cc77fb5, type: 3}
+  - {fileID: 21300000, guid: 013b0ecc518b7b64b9f56cc7ec8d5e1f, type: 3}
+  - {fileID: 21300000, guid: 1490663d3cec9ba4eb1d25431faf4e18, type: 3}
+  - {fileID: 21300000, guid: 0633e0ad46677504baafc7bbe8162cfb, type: 3}
+  - {fileID: 21300000, guid: 91d2af1e4a5a2b94883face276639943, type: 3}
+  - {fileID: 21300000, guid: 858897dedab0d7049b7d42f3fcaadbb4, type: 3}
+  - {fileID: 21300000, guid: 922e8ade20966fc46bc52414bb641575, type: 3}
+  - {fileID: 21300000, guid: 3702e33f09018fc4fbf8c6962376e724, type: 3}
+  - {fileID: 21300000, guid: 883d0adfbf1182346af4238a25bb91e1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - kf
+  - UI_BT_Notice_1
+  - Hall_im_roomlist
+  - Hall_im_free
+  - Hall_im_hot
+  - UI_BT_COMPETITION
+  - UI_BT_Set
+  - Hall_Headbox1
+  - Hall_im_roomBG
+  - UI_BT_CheckIn
+  - UI_BT_Activity_1
+  - UI_BT_Exit
+  - UI_BT_TopService_1
+  - UI_BT_FreeMoney_1
+  - UI_BT_Bank
+  - Hall_im_roomBG1
+  - UI_BT_Copy
+  - Hall_im_busy
+  - Hall_Top
+  - UI_BT_Rank_1
+  - Hall_Bottom
+  - Hall_Bottom_1
+  - UI_BT_CZ_1
+  - UI_BT_Wallet_1
+  - UI_BT_Exit_3
+  - UI_BT_Share
+  - UI_Info_Icon_Phone
+  - Hall_im_full
+  - UI_Bt_Menu_1
+  - Hall_ItemBox
+  - Hall_MoneyIcon
+  - UI_BT_Service_1
+  - Hall_btn_close
+  m_RenderDataMap: {}
+  m_Tag: Hall
+  m_IsVariant: 0

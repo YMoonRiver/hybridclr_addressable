@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+
+message Proto3Sample {
+  string name = 1;
+  int32 id = 2;
+  string email = 3;
+}

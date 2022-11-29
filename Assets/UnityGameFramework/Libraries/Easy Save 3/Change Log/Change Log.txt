@@ -1,0 +1,48 @@
+3.3.1f9
+- It's not possible to add an ES3ReferenceMgr to your scene directly, ensuring that initialisation code is performed.
+- Compressed files can now be cached.
+- Ability to only add prefabs directly referenced by your scene to the manager.
+
+3.3.1f8
+- Caching is now enabled by default for Auto Save, significantly improving performance.
+- Added ES3.LoadString method so you do not need to provide all parameters to use the defaultValue overload.
+- Resolved case where SaveAll would not correctly save some types of array.
+- Resolved case where global references would not be acknowledged.
+
+3.3.1f7
+- Serialization depth limit has been raised to account for projects with deep hierearchies
+- Fixed issue where Easy Save 3 Manager could not be found for scenes which had not been saved.
+- Resolved issue where Add Reference(s) to Manager would not dirty scene when Auto Update References was disabled.
+- Improved Editor performance by accounting for situations where post-processing events would be called multiple times.
+
+3.3.1f6
+- Internal fields of the UnityEngine.Object class are hidden in the Types pane as they are not serialisable.
+- Accounted for edge case where unassigned script is returned by GameObject.GetComponents().
+- ES3Settings constructor now accepts any settings enum (e.g. ES3.Location).
+- No longer throws warning when multiple scenes are open.
+
+3.3.1f5
+- Updated PlayMaker actions.
+- Provided workaround for issue where IL2CPP stripper removes methods which are marked to not be stripped.
+- Performance updates.
+
+3.3.1f4 
+- Improved performance when gathering references for reference manager.
+
+3.3.1f3
+- Added Cache as a storage location, providing a much simpler way of caching data.
+- References can now be added by right-clicking the object and going to Easy Save 3 > Add Reference to Manager.
+- Floats and doubles are now stored with full precision.
+- Assorted bug fixes.
+
+3.3.1f2
+- Added compression, reducing file size by 85% on average when enabled
+- JSON is now pretty printed (formatted) by default
+- Added attributes to control serialisation
+- Private fields in inherited classes are now stored
+- Added search capabilities to the Auto Save window
+- The way in which GameObjects is saved is now more flexible
+- The reference manager is now updated whenever playmode is entered
+- Null values in the global manager are now automatically removed
+- Fixed issue where default settings were not applied properly
+- Fixed issue where ES3Types would be stored in Easy Save root rather than in Assets/Easy Save 3/
