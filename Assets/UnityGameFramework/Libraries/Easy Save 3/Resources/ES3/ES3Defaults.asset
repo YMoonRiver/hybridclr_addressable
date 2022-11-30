@@ -42,10 +42,13 @@ MonoBehaviour:
     - UniRx.Examples
     - UniTask.TextMeshPro
     - UniTask.Addressables
+    - LogViewer
+    - UniWebView-CSharp
     - HybridCLR.Editor
     - GameFramework.Editor
     - UniTask.Editor
     - UGF_Tests
+    - UniWebView-CSharp.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

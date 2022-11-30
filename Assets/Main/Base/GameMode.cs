@@ -14,6 +14,7 @@ using System.Threading;
 using LitJson;
 using Telepathy;
 using UnityEngine;
+using DG.Tweening;
 
 namespace Wanderer.GameFramework
 {

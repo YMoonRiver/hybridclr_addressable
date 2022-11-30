@@ -34,7 +34,8 @@ public class AddressableUtil
     //[MenuItem("AddressableMenu/Clean Content And Folder", priority = 2)] //清理上次打包的资源包括服务器热更新数据
     public static void ClearAllAddressBuild()
     {
-        AddressableAssetSettings.CleanPlayerContent();
+        var settings = AddressableAssetSettingsDefaultObject.Settings;
+        AddressableAssetSettings.CleanPlayerContent(settings.ActivePlayerDataBuilder);
         var serverDataPath = GetServerDataPath();
         Debug.Log("clear serverdata " + serverDataPath);
         if (System.IO.Directory.Exists(serverDataPath))

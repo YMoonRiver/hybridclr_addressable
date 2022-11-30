@@ -16,6 +16,6 @@ public class HotUpdateMain : MonoBehaviour
 
         gameObject.AddComponent<CreateByCode>();
 
-        Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======123");
+        Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======123456");
     }
 }
