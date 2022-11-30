@@ -36,7 +36,7 @@ public class AddressableUtil
     {
         var settings = AddressableAssetSettingsDefaultObject.Settings;
         AddressableAssetSettings.CleanPlayerContent(settings.ActivePlayerDataBuilder);
-        var serverDataPath = GetServerDataPath();
+        var serverDataPath = AddressableAssetSettingsDefaultObject.Settings.RemoteCatalogBuildPath.GetValue(AddressableAssetSettingsDefaultObject.Settings);
         Debug.Log("clear serverdata " + serverDataPath);
         if (System.IO.Directory.Exists(serverDataPath))
         {
