@@ -36,14 +36,13 @@ MonoBehaviour:
     - GameFramework
     - Assembly-CSharp
     - UniTask.Linq
+    - LogViewer
     - UniTask.DOTween
-    - DOTween.Modules
     - HybridCLR.Runtime
+    - UniWebView-CSharp
     - UniRx.Examples
     - UniTask.TextMeshPro
     - UniTask.Addressables
-    - LogViewer
-    - UniWebView-CSharp
     - HybridCLR.Editor
     - GameFramework.Editor
     - UniTask.Editor

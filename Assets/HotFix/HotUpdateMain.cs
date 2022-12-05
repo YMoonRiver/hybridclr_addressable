@@ -2,6 +2,7 @@ using HybridCLR;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Wanderer.GameFramework;
 
 public class HotUpdateMain : MonoBehaviour
 {
@@ -17,5 +18,17 @@ public class HotUpdateMain : MonoBehaviour
         gameObject.AddComponent<CreateByCode>();
 
         Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======123456");
+
+        //开始游戏
+        Debug.Log("PlayStateContext Begin");
+        GameMode.FSM.AddFSM<PlayStateContext>();
+        FSMState<PlayStateContext>[] states = {
+                new GameState(),
+                new HallState(),
+                new LoginState(),
+                new SelectState(),
+            };
+        GameMode.FSM.GetFSM<PlayStateContext>().Creat(states);
+        GameMode.FSM.GetFSM<PlayStateContext>().OnBegin();
     }
 }

@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.focus-creative-games.hybridclr_unity": {
-      "version": "0.10.5",
+      "version": "1.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
