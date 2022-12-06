@@ -17,6 +17,7 @@ public class LoadDll : MonoBehaviour
         "mscorlib.dll",
         "System.dll",
         "System.Core.dll",
+        "UniRx.dll",
     };
 
     void Start()
@@ -45,7 +46,6 @@ public class LoadDll : MonoBehaviour
     /// </summary>
     private static void LoadMetadataForAOTAssemblies()
     {
-        string[] dlls = { "Assets/Addressable/Hall/Hybird/mscorlib.dll.bytes", "Assets/Addressable/Hall/Hybird/System.dll.bytes", "Assets/Addressable/Hall/Hybird/System.Core.dll.bytes" };
         // 可以加载任意aot assembly的对应的dll。但要求dll必须与unity build过程中生成的裁剪后的dll一致，而不能直接使用原始dll。
         // 我们在BuildProcessors里添加了处理代码，这些裁剪后的dll在打包时自动被复制到 {项目目录}/HybridCLRData/AssembliesPostIl2CppStrip/{Target} 目录。
 
@@ -53,9 +53,9 @@ public class LoadDll : MonoBehaviour
         /// 热更新dll不缺元数据，不需要补充，如果调用LoadMetadataForAOTAssembly会返回错误
         /// 
         HomologousImageMode mode = HomologousImageMode.SuperSet;
-        foreach (var aotDllName in dlls)
+        foreach (var aotDllName in AOTMetaAssemblyNames)
         {
-            byte[] dllBytes = GameMode.Resource.Asset.LoadAsset<TextAsset>(aotDllName).bytes;
+            byte[] dllBytes = GameMode.Resource.Asset.LoadAsset<TextAsset>($"Assets/Addressable/Hall/Hybird/{aotDllName}.bytes").bytes;
             // 加载assembly对应的dll，会自动为它hook。一旦aot泛型函数的native函数不存在，用解释器版本代码
             LoadImageErrorCode err = RuntimeApi.LoadMetadataForAOTAssembly(dllBytes, mode);
             Debug.Log($"LoadMetadataForAOTAssembly:{aotDllName}. mode:{mode} ret:{err}");

@@ -82,6 +82,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Hall
+  - m_GUID: 417b0a19b2db46b489d1e7856bf0365d
+    m_Address: Assets/Addressable/Hall/Hybird/UniRx.dll.bytes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8dc3901bc187ea34c99096a788c3b2fb, type: 2}
   m_SchemaSet:

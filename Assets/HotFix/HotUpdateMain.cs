@@ -37,7 +37,8 @@ public class HotUpdateMain : MonoBehaviour
 
         Observable.EveryUpdate()
                 .Where(_ => Input.GetMouseButtonDown(0))
-                .Subscribe(_ => {
+                .Subscribe(_ =>
+                {
 
                     Debug.Log("鼠标点击");
                 });
@@ -45,7 +46,8 @@ public class HotUpdateMain : MonoBehaviour
         Observable.EveryUpdate().
                 Where(_ => Input.GetMouseButtonDown(0)) //相当于if 判断
                 .First() //只执行一次  Subscribe：订阅的事件或者回调
-                .Subscribe(_ => {
+                .Subscribe(_ =>
+                {
                     Debug.Log("鼠标只能点击一次");
 
                 }).AddTo(this);
@@ -53,6 +55,8 @@ public class HotUpdateMain : MonoBehaviour
         Observable.EveryUpdate().Where(_ => Input.GetMouseButtonDown(0))
                     .Throttle(System.TimeSpan.FromSeconds(1))
                     .Subscribe(_ => Debug.Log("一秒过后"));
+
+     
     }
 
 }
