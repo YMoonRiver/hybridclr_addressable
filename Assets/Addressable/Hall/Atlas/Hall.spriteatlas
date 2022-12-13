@@ -61,7 +61,6 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 31f755200ed3a81459a40f6db2b28fd0, type: 3}
   - {fileID: 21300000, guid: e7d0aa2119e8f65409d1ff804adb1da3, type: 3}
   - {fileID: 21300000, guid: 24bbd831df4e74343a93ff7cf3c1e947, type: 3}
   - {fileID: 21300000, guid: 2587ce51ff3288c45b1aa907246c640b, type: 3}
@@ -87,7 +86,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 27a4aadb474837e4994c8e870df940bb, type: 3}
   - {fileID: 21300000, guid: 4ebdb1ac370c0d946950477b7cc77fb5, type: 3}
   - {fileID: 21300000, guid: 013b0ecc518b7b64b9f56cc7ec8d5e1f, type: 3}
-  - {fileID: 21300000, guid: 1490663d3cec9ba4eb1d25431faf4e18, type: 3}
   - {fileID: 21300000, guid: 0633e0ad46677504baafc7bbe8162cfb, type: 3}
   - {fileID: 21300000, guid: 91d2af1e4a5a2b94883face276639943, type: 3}
   - {fileID: 21300000, guid: 858897dedab0d7049b7d42f3fcaadbb4, type: 3}
@@ -95,7 +93,6 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3702e33f09018fc4fbf8c6962376e724, type: 3}
   - {fileID: 21300000, guid: 883d0adfbf1182346af4238a25bb91e1, type: 3}
   m_PackedSpriteNamesToIndex:
-  - kf
   - UI_BT_Notice_1
   - Hall_im_roomlist
   - Hall_im_free
@@ -104,7 +101,7 @@ SpriteAtlas:
   - UI_BT_Set
   - Hall_Headbox1
   - Hall_im_roomBG
-  - UI_BT_CheckIn
+  - UI_BT_Daily
   - UI_BT_Activity_1
   - UI_BT_Exit
   - UI_BT_TopService_1
@@ -117,11 +114,10 @@ SpriteAtlas:
   - UI_BT_Rank_1
   - Hall_Bottom
   - Hall_Bottom_1
-  - UI_BT_CZ_1
+  - UI_BT_First
   - UI_BT_Wallet_1
-  - UI_BT_Exit_3
+  - UI_BT_Exit_1
   - UI_BT_Share
-  - UI_Info_Icon_Phone
   - Hall_im_full
   - UI_Bt_Menu_1
   - Hall_ItemBox
