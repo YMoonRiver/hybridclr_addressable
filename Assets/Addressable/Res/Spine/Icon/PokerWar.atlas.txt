@@ -1,0 +1,76 @@
+
+PokerWar.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 279
+  size: 253, 212
+  orig: 256, 214
+  offset: 1, 1
+  index: -1
+UI_Glow
+  rotate: true
+  xy: 2, 136
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+h
+  rotate: true
+  xy: 140, 19
+  size: 115, 97
+  orig: 117, 99
+  offset: 1, 1
+  index: -1
+h2
+  rotate: false
+  xy: 239, 7
+  size: 94, 86
+  orig: 96, 88
+  offset: 1, 1
+  index: -1
+j1
+  rotate: false
+  xy: 324, 285
+  size: 56, 58
+  orig: 59, 61
+  offset: 2, 2
+  index: -1
+j2
+  rotate: false
+  xy: 324, 235
+  size: 37, 48
+  orig: 41, 52
+  offset: 2, 2
+  index: -1
+k1
+  rotate: true
+  xy: 257, 345
+  size: 146, 142
+  orig: 148, 144
+  offset: 1, 1
+  index: -1
+k2
+  rotate: true
+  xy: 144, 149
+  size: 128, 77
+  orig: 130, 79
+  offset: 1, 1
+  index: -1
+name
+  rotate: true
+  xy: 257, 95
+  size: 248, 65
+  orig: 252, 68
+  offset: 2, 2
+  index: -1
+star
+  rotate: false
+  xy: 2, 2
+  size: 136, 132
+  orig: 138, 135
+  offset: 1, 2
+  index: -1

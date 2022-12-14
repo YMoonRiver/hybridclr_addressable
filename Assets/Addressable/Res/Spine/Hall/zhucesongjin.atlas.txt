@@ -1,0 +1,41 @@
+
+zhucesongjin.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+2
+  rotate: false
+  xy: 181, 155
+  size: 27, 27
+  orig: 29, 29
+  offset: 1, 1
+  index: -1
+4
+  rotate: true
+  xy: 145, 149
+  size: 33, 34
+  orig: 35, 36
+  offset: 1, 1
+  index: -1
+DailyBonus
+  rotate: true
+  xy: 214, 127
+  size: 118, 31
+  orig: 118, 31
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: false
+  xy: 2, 105
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+ddd
+  rotate: false
+  xy: 145, 184
+  size: 67, 61
+  orig: 67, 61
+  offset: 0, 0
+  index: -1

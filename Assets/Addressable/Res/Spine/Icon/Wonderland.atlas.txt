@@ -1,0 +1,132 @@
+
+Wonderland.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+11
+  rotate: false
+  xy: 114, 77
+  size: 61, 51
+  orig: 61, 51
+  offset: 0, 0
+  index: -1
+204
+  rotate: true
+  xy: 177, 63
+  size: 65, 49
+  orig: 65, 49
+  offset: 0, 0
+  index: -1
+55
+  rotate: true
+  xy: 352, 33
+  size: 112, 113
+  orig: 112, 113
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: false
+  xy: 151, 223
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UI_Room3_Glow
+  rotate: true
+  xy: 2, 159
+  size: 128, 51
+  orig: 128, 51
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 289
+  size: 265, 220
+  orig: 265, 220
+  offset: 0, 0
+  index: -1
+deb189825234652905afd831ed26c8a9dce7555612348-zH0cKg_fw1200
+  rotate: false
+  xy: 269, 321
+  size: 152, 188
+  orig: 173, 300
+  offset: 7, 112
+  index: -1
+feima2
+  rotate: false
+  xy: 352, 147
+  size: 110, 172
+  orig: 273, 474
+  offset: 163, 209
+  index: -1
+name
+  rotate: true
+  xy: 269, 69
+  size: 250, 81
+  orig: 250, 81
+  offset: 0, 0
+  index: -1
+yaodai
+  rotate: false
+  xy: 2, 62
+  size: 110, 95
+  orig: 112, 97
+  offset: 1, 1
+  index: -1
+yaodai_00
+  rotate: false
+  xy: 467, 120
+  size: 24, 40
+  orig: 112, 97
+  offset: 1, 51
+  index: -1
+yaodai_01
+  rotate: false
+  xy: 464, 259
+  size: 45, 61
+  orig: 112, 97
+  offset: 1, 31
+  index: -1
+yaodai_02
+  rotate: false
+  xy: 114, 130
+  size: 66, 77
+  orig: 112, 97
+  offset: 1, 15
+  index: -1
+yaodai_03
+  rotate: false
+  xy: 423, 419
+  size: 80, 90
+  orig: 112, 97
+  offset: 7, 2
+  index: -1
+yaodai_04
+  rotate: true
+  xy: 55, 209
+  size: 78, 94
+  orig: 112, 97
+  offset: 27, 1
+  index: -1
+yaodai_05
+  rotate: false
+  xy: 423, 322
+  size: 62, 95
+  orig: 112, 97
+  offset: 48, 1
+  index: -1
+yaodai_06
+  rotate: false
+  xy: 464, 162
+  size: 43, 95
+  orig: 112, 97
+  offset: 68, 1
+  index: -1
+yaodai_07
+  rotate: false
+  xy: 487, 328
+  size: 22, 89
+  orig: 112, 97
+  offset: 88, 6
+  index: -1

@@ -1,0 +1,132 @@
+
+Toss a coin.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Glow
+  rotate: true
+  xy: 430, 12
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 340, 155
+  size: 220, 101
+  orig: 222, 103
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: true
+  xy: 2, 254
+  size: 253, 212
+  orig: 255, 214
+  offset: 1, 1
+  index: -1
+c2
+  rotate: true
+  xy: 560, 276
+  size: 93, 85
+  orig: 95, 87
+  offset: 1, 1
+  index: -1
+g1
+  rotate: false
+  xy: 216, 255
+  size: 53, 51
+  orig: 55, 53
+  offset: 1, 1
+  index: -1
+g2
+  rotate: true
+  xy: 545, 371
+  size: 136, 132
+  orig: 138, 134
+  offset: 1, 1
+  index: -1
+j1
+  rotate: false
+  xy: 340, 95
+  size: 56, 58
+  orig: 58, 60
+  offset: 1, 1
+  index: -1
+j2
+  rotate: false
+  xy: 336, 258
+  size: 37, 48
+  orig: 39, 50
+  offset: 1, 1
+  index: -1
+n
+  rotate: false
+  xy: 2, 14
+  size: 253, 66
+  orig: 255, 68
+  offset: 1, 1
+  index: -1
+xulie00
+  rotate: false
+  xy: 174, 84
+  size: 164, 168
+  orig: 172, 172
+  offset: 4, 1
+  index: -1
+xulie01
+  rotate: true
+  xy: 216, 337
+  size: 170, 154
+  orig: 172, 156
+  offset: 1, 1
+  index: -1
+xulie02
+  rotate: false
+  xy: 388, 262
+  size: 170, 104
+  orig: 172, 106
+  offset: 1, 1
+  index: -1
+xulie03
+  rotate: false
+  xy: 216, 308
+  size: 170, 27
+  orig: 172, 29
+  offset: 1, 1
+  index: -1
+xulie04
+  rotate: false
+  xy: 257, 2
+  size: 171, 80
+  orig: 173, 82
+  offset: 1, 1
+  index: -1
+xulie05
+  rotate: false
+  xy: 372, 368
+  size: 171, 139
+  orig: 173, 141
+  offset: 1, 1
+  index: -1
+xulie06
+  rotate: false
+  xy: 2, 82
+  size: 170, 170
+  orig: 172, 172
+  offset: 1, 1
+  index: -1
+y1
+  rotate: false
+  xy: 271, 272
+  size: 63, 34
+  orig: 65, 36
+  offset: 1, 1
+  index: -1
+y2
+  rotate: false
+  xy: 271, 272
+  size: 63, 34
+  orig: 65, 36
+  offset: 1, 1
+  index: -1

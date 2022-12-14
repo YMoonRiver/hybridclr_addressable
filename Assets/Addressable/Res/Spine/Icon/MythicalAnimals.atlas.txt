@@ -1,0 +1,55 @@
+
+MythicalAnimals.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Glow
+  rotate: false
+  xy: 94, 153
+  size: 137, 138
+  orig: 141, 140
+  offset: 1, 1
+  index: -1
+bg
+  rotate: false
+  xy: 2, 293
+  size: 260, 217
+  orig: 262, 223
+  offset: 1, 4
+  index: -1
+j1
+  rotate: true
+  xy: 142, 106
+  size: 45, 40
+  orig: 50, 46
+  offset: 2, 4
+  index: -1
+j2
+  rotate: true
+  xy: 94, 82
+  size: 69, 46
+  orig: 73, 53
+  offset: 2, 5
+  index: -1
+name
+  rotate: true
+  xy: 2, 46
+  size: 245, 90
+  orig: 249, 96
+  offset: 2, 4
+  index: -1
+shenshou1
+  rotate: true
+  xy: 233, 132
+  size: 129, 149
+  orig: 133, 152
+  offset: 2, 2
+  index: -1
+shenshou3
+  rotate: false
+  xy: 264, 263
+  size: 246, 247
+  orig: 246, 247
+  offset: 0, 0
+  index: -1

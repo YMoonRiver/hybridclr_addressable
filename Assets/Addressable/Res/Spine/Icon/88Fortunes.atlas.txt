@@ -1,0 +1,111 @@
+
+88Fortunes.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Glow
+  rotate: false
+  xy: 499, 286
+  size: 63, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 2, 241
+  size: 260, 217
+  orig: 260, 217
+  offset: 0, 0
+  index: -1
+lianyi
+  rotate: false
+  xy: 2, 31
+  size: 200, 208
+  orig: 200, 208
+  offset: 0, 0
+  index: -1
+maozi01
+  rotate: false
+  xy: 396, 12
+  size: 137, 100
+  orig: 142, 111
+  offset: 4, 0
+  index: -1
+maozixia01zuo
+  rotate: false
+  xy: 506, 353
+  size: 48, 56
+  orig: 48, 56
+  offset: 0, 0
+  index: -1
+maozixia02you
+  rotate: false
+  xy: 426, 352
+  size: 78, 57
+  orig: 78, 57
+  offset: 0, 0
+  index: -1
+name
+  rotate: true
+  xy: 221, 261
+  size: 240, 80
+  orig: 240, 80
+  offset: 0, 0
+  index: -1
+shengti
+  rotate: false
+  xy: 204, 28
+  size: 190, 211
+  orig: 195, 211
+  offset: 5, 0
+  index: -1
+xiuzi
+  rotate: true
+  xy: 426, 411
+  size: 90, 170
+  orig: 90, 170
+  offset: 0, 0
+  index: -1
+yaodia
+  rotate: false
+  xy: 303, 267
+  size: 194, 83
+  orig: 194, 83
+  offset: 0, 0
+  index: -1
+yijiao
+  rotate: false
+  xy: 303, 352
+  size: 121, 149
+  orig: 121, 149
+  offset: 0, 0
+  index: -1
+youjian
+  rotate: true
+  xy: 493, 124
+  size: 141, 94
+  orig: 142, 94
+  offset: 1, 0
+  index: -1
+youshou
+  rotate: false
+  xy: 396, 114
+  size: 95, 151
+  orig: 95, 151
+  offset: 0, 0
+  index: -1
+yuanbao
+  rotate: true
+  xy: 564, 284
+  size: 125, 97
+  orig: 125, 97
+  offset: 0, 0
+  index: -1
+zuoshou
+  rotate: false
+  xy: 535, 2
+  size: 104, 120
+  orig: 104, 120
+  offset: 0, 0
+  index: -1

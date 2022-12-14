@@ -1,0 +1,55 @@
+
+Wait.png
+size: 256,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Lizi1
+  rotate: false
+  xy: 2, 2
+  size: 6, 6
+  orig: 6, 6
+  offset: 0, 0
+  index: -1
+Lizi2
+  rotate: false
+  xy: 63, 30
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 326
+  size: 179, 183
+  orig: 183, 183
+  offset: 2, 0
+  index: -1
+bg2
+  rotate: true
+  xy: 2, 146
+  size: 178, 177
+  orig: 182, 182
+  offset: 2, 2
+  index: -1
+bg3
+  rotate: false
+  xy: 2, 43
+  size: 101, 101
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+glow
+  rotate: false
+  xy: 2, 10
+  size: 59, 31
+  orig: 60, 32
+  offset: 0, 1
+  index: -1
+sign
+  rotate: false
+  xy: 105, 102
+  size: 42, 42
+  orig: 43, 44
+  offset: 0, 1
+  index: -1

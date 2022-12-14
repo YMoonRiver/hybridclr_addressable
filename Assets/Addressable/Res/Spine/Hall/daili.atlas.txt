@@ -1,0 +1,160 @@
+
+daili.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: true
+  xy: 108, 61
+  size: 128, 130
+  orig: 128, 130
+  offset: 0, 0
+  index: -1
+HUGEINCOME
+  rotate: false
+  xy: 56, 464
+  size: 142, 24
+  orig: 142, 24
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: false
+  xy: 240, 49
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+VIP
+  rotate: false
+  xy: 327, 442
+  size: 161, 46
+  orig: 163, 48
+  offset: 1, 1
+  index: -1
+VIP2
+  rotate: false
+  xy: 179, 388
+  size: 174, 52
+  orig: 176, 54
+  offset: 1, 1
+  index: -1
+VIP_00
+  rotate: true
+  xy: 27, 468
+  size: 20, 27
+  orig: 174, 92
+  offset: 154, 3
+  index: -1
+VIP_01
+  rotate: true
+  xy: 264, 455
+  size: 33, 61
+  orig: 174, 92
+  offset: 141, 1
+  index: -1
+VIP_02
+  rotate: true
+  xy: 2, 411
+  size: 51, 87
+  orig: 174, 92
+  offset: 123, 1
+  index: -1
+VIP_03
+  rotate: true
+  xy: 355, 374
+  size: 66, 89
+  orig: 174, 92
+  offset: 106, 2
+  index: -1
+VIP_04
+  rotate: false
+  xy: 92, 318
+  size: 79, 89
+  orig: 174, 92
+  offset: 90, 2
+  index: -1
+VIP_05
+  rotate: false
+  xy: 265, 283
+  size: 95, 89
+  orig: 174, 92
+  offset: 74, 2
+  index: -1
+VIP_06
+  rotate: false
+  xy: 362, 283
+  size: 107, 89
+  orig: 174, 92
+  offset: 58, 2
+  index: -1
+VIP_07
+  rotate: false
+  xy: 2, 226
+  size: 109, 90
+  orig: 174, 92
+  offset: 42, 2
+  index: -1
+VIP_08
+  rotate: false
+  xy: 113, 207
+  size: 109, 90
+  orig: 174, 92
+  offset: 26, 2
+  index: -1
+VIP_09
+  rotate: false
+  xy: 224, 191
+  size: 109, 90
+  orig: 174, 92
+  offset: 10, 2
+  index: -1
+VIP_10
+  rotate: false
+  xy: 335, 191
+  size: 100, 90
+  orig: 174, 92
+  offset: 2, 2
+  index: -1
+VIP_11
+  rotate: true
+  xy: 173, 299
+  size: 87, 90
+  orig: 174, 92
+  offset: 1, 2
+  index: -1
+VIP_12
+  rotate: true
+  xy: 2, 340
+  size: 67, 88
+  orig: 174, 92
+  offset: 0, 3
+  index: -1
+VIP_13
+  rotate: true
+  xy: 91, 409
+  size: 53, 86
+  orig: 174, 92
+  offset: 2, 5
+  index: -1
+VIP_14
+  rotate: true
+  xy: 200, 456
+  size: 32, 62
+  orig: 174, 92
+  offset: 6, 29
+  index: -1
+VIP_15
+  rotate: true
+  xy: 2, 473
+  size: 15, 23
+  orig: 174, 92
+  offset: 8, 68
+  index: -1
+bg
+  rotate: true
+  xy: 2, 121
+  size: 103, 104
+  orig: 105, 106
+  offset: 1, 1
+  index: -1

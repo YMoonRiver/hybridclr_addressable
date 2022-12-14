@@ -1,0 +1,34 @@
+
+duihuan.png
+size: 256,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 98
+  size: 90, 90
+  orig: 90, 90
+  offset: 0, 0
+  index: -1
+COMMISSIOM
+  rotate: false
+  xy: 60, 190
+  size: 164, 45
+  orig: 164, 45
+  offset: 0, 0
+  index: -1
+TOP10
+  rotate: false
+  xy: 2, 218
+  size: 56, 17
+  orig: 56, 17
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: false
+  xy: 94, 48
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1

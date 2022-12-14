@@ -1,0 +1,139 @@
+
+Luxury Fruit.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+777
+  rotate: false
+  xy: 97, 102
+  size: 91, 97
+  orig: 91, 97
+  offset: 0, 0
+  index: -1
+778
+  rotate: false
+  xy: 421, 159
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+779
+  rotate: false
+  xy: 421, 159
+  size: 71, 77
+  orig: 71, 77
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: true
+  xy: 97, 201
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+a1
+  rotate: true
+  xy: 237, 66
+  size: 64, 69
+  orig: 66, 71
+  offset: 1, 1
+  index: -1
+a2
+  rotate: false
+  xy: 308, 75
+  size: 53, 55
+  orig: 55, 57
+  offset: 1, 1
+  index: -1
+a3
+  rotate: false
+  xy: 239, 132
+  size: 180, 104
+  orig: 180, 104
+  offset: 0, 0
+  index: -1
+a4
+  rotate: false
+  xy: 402, 52
+  size: 37, 36
+  orig: 37, 36
+  offset: 0, 0
+  index: -1
+a6
+  rotate: true
+  xy: 97, 3
+  size: 97, 55
+  orig: 97, 55
+  offset: 0, 0
+  index: -1
+bg
+  rotate: true
+  xy: 271, 238
+  size: 260, 217
+  orig: 260, 217
+  offset: 0, 0
+  index: -1
+g4
+  rotate: true
+  xy: 190, 95
+  size: 46, 45
+  orig: 46, 45
+  offset: 0, 0
+  index: -1
+name
+  rotate: true
+  xy: 2, 90
+  size: 252, 93
+  orig: 252, 93
+  offset: 0, 0
+  index: -1
+s1
+  rotate: true
+  xy: 190, 143
+  size: 56, 46
+  orig: 56, 46
+  offset: 0, 0
+  index: -1
+s2
+  rotate: true
+  xy: 61, 50
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+s3
+  rotate: true
+  xy: 363, 86
+  size: 44, 37
+  orig: 44, 37
+  offset: 0, 0
+  index: -1
+w1
+  rotate: true
+  xy: 2, 2
+  size: 86, 57
+  orig: 86, 57
+  offset: 0, 0
+  index: -1
+w3
+  rotate: false
+  xy: 2, 344
+  size: 267, 154
+  orig: 267, 154
+  offset: 0, 0
+  index: -1
+w4
+  rotate: true
+  xy: 154, 33
+  size: 60, 56
+  orig: 60, 56
+  offset: 0, 0
+  index: -1
+w6
+  rotate: false
+  xy: 421, 90
+  size: 66, 67
+  orig: 68, 69
+  offset: 1, 1
+  index: -1

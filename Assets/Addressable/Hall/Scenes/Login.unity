@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 466387494}
   - component: {fileID: 466387493}
   - component: {fileID: 466387495}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 822476618}
   - component: {fileID: 822476617}
   - component: {fileID: 822476616}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +389,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2110195262}
   - component: {fileID: 2110195261}
-  - component: {fileID: 2110195260}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -397,14 +396,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2110195260
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2110195259}
-  m_Enabled: 1
 --- !u!20 &2110195261
 Camera:
   m_ObjectHideFlags: 0
@@ -436,7 +427,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0

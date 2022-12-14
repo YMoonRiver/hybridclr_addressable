@@ -1,0 +1,139 @@
+
+Wallet.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Glow
+  rotate: false
+  xy: 157, 369
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+Wallet
+  rotate: false
+  xy: 300, 426
+  size: 162, 83
+  orig: 162, 83
+  offset: 0, 0
+  index: -1
+che
+  rotate: false
+  xy: 2, 366
+  size: 153, 143
+  orig: 153, 143
+  offset: 0, 0
+  index: -1
+wenzi_00
+  rotate: true
+  xy: 452, 274
+  size: 24, 52
+  orig: 162, 83
+  offset: 1, 26
+  index: -1
+wenzi_01
+  rotate: false
+  xy: 464, 433
+  size: 44, 76
+  orig: 162, 83
+  offset: 1, 6
+  index: -1
+wenzi_02
+  rotate: true
+  xy: 2, 231
+  size: 59, 78
+  orig: 162, 83
+  offset: 1, 4
+  index: -1
+wenzi_03
+  rotate: true
+  xy: 2, 292
+  size: 72, 78
+  orig: 162, 83
+  offset: 3, 4
+  index: -1
+wenzi_04
+  rotate: false
+  xy: 157, 289
+  size: 78, 78
+  orig: 162, 83
+  offset: 12, 4
+  index: -1
+wenzi_05
+  rotate: false
+  xy: 299, 265
+  size: 78, 78
+  orig: 162, 83
+  offset: 27, 4
+  index: -1
+wenzi_06
+  rotate: true
+  xy: 300, 345
+  size: 79, 81
+  orig: 162, 83
+  offset: 41, 1
+  index: -1
+wenzi_07
+  rotate: false
+  xy: 383, 342
+  size: 77, 82
+  orig: 162, 83
+  offset: 56, 0
+  index: -1
+wenzi_08
+  rotate: false
+  xy: 379, 258
+  size: 71, 82
+  orig: 162, 83
+  offset: 73, 0
+  index: -1
+wenzi_09
+  rotate: false
+  xy: 82, 283
+  size: 68, 81
+  orig: 162, 83
+  offset: 86, 1
+  index: -1
+wenzi_10
+  rotate: false
+  xy: 237, 289
+  size: 60, 78
+  orig: 162, 83
+  offset: 100, 4
+  index: -1
+wenzi_11
+  rotate: false
+  xy: 464, 357
+  size: 45, 74
+  orig: 162, 83
+  offset: 117, 8
+  index: -1
+wenzi_12
+  rotate: false
+  xy: 462, 300
+  size: 31, 55
+  orig: 162, 83
+  offset: 131, 27
+  index: -1
+wenzi_13
+  rotate: true
+  xy: 452, 252
+  size: 20, 44
+  orig: 162, 83
+  offset: 142, 36
+  index: -1
+wenzi_14
+  rotate: true
+  xy: 452, 252
+  size: 20, 44
+  orig: 162, 83
+  offset: 142, 36
+  index: -1
+wenzi_15
+  rotate: true
+  xy: 452, 252
+  size: 20, 44
+  orig: 162, 83
+  offset: 142, 36
+  index: -1

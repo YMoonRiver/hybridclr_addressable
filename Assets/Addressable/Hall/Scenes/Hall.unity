@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 614819925}
   - component: {fileID: 614819924}
-  - component: {fileID: 614819923}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -141,14 +140,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &614819923
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 614819922}
-  m_Enabled: 1
 --- !u!20 &614819924
 Camera:
   m_ObjectHideFlags: 0
@@ -180,7 +171,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -218,7 +209,7 @@ GameObject:
   - component: {fileID: 999486229}
   - component: {fileID: 999486228}
   - component: {fileID: 999486227}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +375,7 @@ GameObject:
   - component: {fileID: 1683612139}
   - component: {fileID: 1683612138}
   - component: {fileID: 1683612137}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,0 +1,76 @@
+
+Egypt Treasure.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 280
+  size: 263, 220
+  orig: 264, 220
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: false
+  xy: 214, 12
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+UI_Room3_Glow
+  rotate: true
+  xy: 267, 154
+  size: 346, 137
+  orig: 346, 137
+  offset: 0, 0
+  index: -1
+chouma
+  rotate: true
+  xy: 406, 119
+  size: 128, 94
+  orig: 128, 94
+  offset: 0, 0
+  index: -1
+chouma1
+  rotate: false
+  xy: 214, 241
+  size: 50, 37
+  orig: 52, 39
+  offset: 1, 1
+  index: -1
+chouma2
+  rotate: true
+  xy: 61, 27
+  size: 35, 42
+  orig: 35, 42
+  offset: 0, 0
+  index: -1
+chouma3
+  rotate: false
+  xy: 2, 21
+  size: 57, 41
+  orig: 59, 41
+  offset: 1, 0
+  index: -1
+dfgf
+  rotate: false
+  xy: 2, 64
+  size: 210, 214
+  orig: 210, 214
+  offset: 0, 0
+  index: -1
+gou
+  rotate: true
+  xy: 357, 27
+  size: 90, 111
+  orig: 90, 111
+  offset: 0, 0
+  index: -1
+wenzi
+  rotate: true
+  xy: 406, 249
+  size: 251, 82
+  orig: 251, 82
+  offset: 0, 0
+  index: -1

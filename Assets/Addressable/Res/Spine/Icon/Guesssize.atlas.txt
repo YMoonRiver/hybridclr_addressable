@@ -1,0 +1,146 @@
+
+Guesssize.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Guess size
+  rotate: true
+  xy: 2, 7
+  size: 239, 66
+  orig: 241, 68
+  offset: 1, 1
+  index: -1
+UI_Glow
+  rotate: true
+  xy: 499, 367
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+bg2222
+  rotate: true
+  xy: 2, 248
+  size: 260, 221
+  orig: 262, 223
+  offset: 1, 1
+  index: -1
+bg222222222
+  rotate: true
+  xy: 70, 26
+  size: 220, 107
+  orig: 222, 109
+  offset: 1, 1
+  index: -1
+g1
+  rotate: true
+  xy: 225, 251
+  size: 84, 57
+  orig: 86, 59
+  offset: 1, 1
+  index: -1
+j1
+  rotate: true
+  xy: 461, 207
+  size: 56, 50
+  orig: 58, 52
+  offset: 1, 1
+  index: -1
+j2
+  rotate: false
+  xy: 496, 121
+  size: 38, 38
+  orig: 40, 40
+  offset: 1, 1
+  index: -1
+j3
+  rotate: true
+  xy: 461, 161
+  size: 44, 42
+  orig: 46, 44
+  offset: 1, 1
+  index: -1
+j4
+  rotate: true
+  xy: 461, 117
+  size: 42, 33
+  orig: 44, 35
+  offset: 1, 1
+  index: -1
+shaizi_anmi0
+  rotate: true
+  xy: 448, 265
+  size: 74, 70
+  orig: 190, 140
+  offset: 8, 62
+  index: -1
+shaizi_anmi1
+  rotate: true
+  xy: 448, 265
+  size: 74, 70
+  orig: 190, 140
+  offset: 8, 62
+  index: -1
+shaizi_anmi10
+  rotate: true
+  xy: 387, 96
+  size: 159, 72
+  orig: 190, 140
+  offset: 8, 9
+  index: -1
+shaizi_anmi2
+  rotate: true
+  xy: 179, 71
+  size: 175, 116
+  orig: 190, 140
+  offset: 6, 16
+  index: -1
+shaizi_anmi3
+  rotate: false
+  xy: 179, 2
+  size: 167, 67
+  orig: 190, 140
+  offset: 11, 13
+  index: -1
+shaizi_anmi4
+  rotate: true
+  xy: 302, 338
+  size: 170, 98
+  orig: 190, 140
+  offset: 6, 20
+  index: -1
+shaizi_anmi5
+  rotate: true
+  xy: 402, 341
+  size: 167, 95
+  orig: 190, 140
+  offset: 10, 19
+  index: -1
+shaizi_anmi6
+  rotate: true
+  xy: 297, 91
+  size: 164, 88
+  orig: 190, 140
+  offset: 11, 13
+  index: -1
+shaizi_anmi7
+  rotate: false
+  xy: 348, 14
+  size: 164, 75
+  orig: 190, 140
+  offset: 13, 12
+  index: -1
+shaizi_anmi8
+  rotate: true
+  xy: 225, 337
+  size: 171, 75
+  orig: 190, 140
+  offset: 1, 8
+  index: -1
+shaizi_anmi9
+  rotate: false
+  xy: 284, 257
+  size: 162, 78
+  orig: 190, 140
+  offset: 8, 8
+  index: -1

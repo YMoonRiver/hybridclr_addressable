@@ -1,0 +1,118 @@
+
+aniniusaoguang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+anniu_00
+  rotate: true
+  xy: 2, 920
+  size: 102, 146
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_01
+  rotate: true
+  xy: 150, 881
+  size: 141, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_02
+  rotate: false
+  xy: 212, 719
+  size: 179, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_03
+  rotate: false
+  xy: 393, 719
+  size: 218, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_04
+  rotate: false
+  xy: 613, 719
+  size: 256, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_05
+  rotate: true
+  xy: 871, 575
+  size: 295, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_06
+  rotate: false
+  xy: 2, 566
+  size: 333, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_07
+  rotate: false
+  xy: 337, 566
+  size: 360, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_08
+  rotate: false
+  xy: 2, 413
+  size: 364, 151
+  orig: 365, 151
+  offset: 0, 0
+  index: -1
+anniu_09
+  rotate: false
+  xy: 368, 413
+  size: 364, 151
+  orig: 365, 151
+  offset: 1, 0
+  index: -1
+anniu_10
+  rotate: false
+  xy: 2, 260
+  size: 356, 151
+  orig: 365, 151
+  offset: 9, 0
+  index: -1
+anniu_11
+  rotate: false
+  xy: 360, 260
+  size: 324, 151
+  orig: 365, 151
+  offset: 41, 0
+  index: -1
+anniu_12
+  rotate: false
+  xy: 474, 872
+  size: 285, 150
+  orig: 365, 151
+  offset: 80, 1
+  index: -1
+anniu_13
+  rotate: false
+  xy: 761, 872
+  size: 247, 150
+  orig: 365, 151
+  offset: 118, 1
+  index: -1
+anniu_14
+  rotate: false
+  xy: 2, 729
+  size: 208, 150
+  orig: 365, 151
+  offset: 157, 1
+  index: -1
+anniu_15
+  rotate: false
+  xy: 303, 872
+  size: 169, 150
+  orig: 365, 151
+  offset: 196, 1
+  index: -1

@@ -1,0 +1,146 @@
+
+Dragon Tiger.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+434
+  rotate: false
+  xy: 586, 879
+  size: 245, 62
+  orig: 245, 62
+  offset: 0, 0
+  index: -1
+UI_Glow
+  rotate: false
+  xy: 278, 741
+  size: 141, 140
+  orig: 141, 140
+  offset: 0, 0
+  index: -1
+UI_Room3_Glow
+  rotate: false
+  xy: 141, 890
+  size: 128, 51
+  orig: 128, 51
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 584, 55
+  size: 274, 442
+  orig: 274, 442
+  offset: 0, 0
+  index: -1
+ccc
+  rotate: false
+  xy: 912, 865
+  size: 80, 76
+  orig: 80, 76
+  offset: 0, 0
+  index: -1
+g
+  rotate: true
+  xy: 132, 757
+  size: 128, 144
+  orig: 128, 144
+  offset: 0, 0
+  index: -1
+g1
+  rotate: true
+  xy: 410, 499
+  size: 186, 441
+  orig: 188, 443
+  offset: 1, 1
+  index: -1
+g2
+  rotate: false
+  xy: 661, 687
+  size: 188, 188
+  orig: 190, 190
+  offset: 1, 1
+  index: -1
+g3
+  rotate: false
+  xy: 421, 704
+  size: 238, 173
+  orig: 240, 175
+  offset: 1, 1
+  index: -1
+g4
+  rotate: true
+  xy: 2, 773
+  size: 123, 128
+  orig: 123, 128
+  offset: 0, 0
+  index: -1
+hu
+  rotate: false
+  xy: 2, 2
+  size: 442, 247
+  orig: 442, 247
+  offset: 0, 0
+  index: -1
+huang
+  rotate: true
+  xy: 2, 297
+  size: 236, 261
+  orig: 238, 263
+  offset: 1, 1
+  index: -1
+j2
+  rotate: false
+  xy: 2, 907
+  size: 38, 34
+  orig: 40, 36
+  offset: 1, 1
+  index: -1
+j3
+  rotate: false
+  xy: 2, 535
+  size: 406, 204
+  orig: 408, 206
+  offset: 1, 1
+  index: -1
+j4
+  rotate: false
+  xy: 88, 898
+  size: 51, 43
+  orig: 53, 45
+  offset: 1, 1
+  index: -1
+j5
+  rotate: false
+  xy: 42, 903
+  size: 44, 38
+  orig: 46, 40
+  offset: 1, 1
+  index: -1
+j6
+  rotate: false
+  xy: 271, 887
+  size: 65, 54
+  orig: 67, 56
+  offset: 1, 1
+  index: -1
+ji
+  rotate: false
+  xy: 833, 877
+  size: 77, 64
+  orig: 79, 66
+  offset: 1, 1
+  index: -1
+long
+  rotate: false
+  xy: 265, 251
+  size: 317, 246
+  orig: 317, 246
+  offset: 0, 0
+  index: -1
+name
+  rotate: false
+  xy: 338, 883
+  size: 246, 58
+  orig: 246, 58
+  offset: 0, 0
+  index: -1

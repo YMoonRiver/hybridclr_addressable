@@ -32,29 +32,29 @@ public class HotUpdateMain : MonoBehaviour
         GameMode.FSM.GetFSM<PlayStateContext>().Creat(states);
         GameMode.FSM.GetFSM<PlayStateContext>().OnBegin();
 
-        Observable.Timer(System.TimeSpan.FromSeconds(2))
-            .Subscribe(_ => { Debug.Log("delay 2 seconds"); });
+        //Observable.Timer(System.TimeSpan.FromSeconds(2))
+        //    .Subscribe(_ => { Debug.Log("delay 2 seconds"); });
 
-        Observable.EveryUpdate()
-                .Where(_ => Input.GetMouseButtonDown(0))
-                .Subscribe(_ =>
-                {
+        //Observable.EveryUpdate()
+        //        .Where(_ => Input.GetMouseButtonDown(0))
+        //        .Subscribe(_ =>
+        //        {
 
-                    Debug.Log("鼠标点击");
-                });
+        //            Debug.Log("鼠标点击");
+        //        });
 
-        Observable.EveryUpdate().
-                Where(_ => Input.GetMouseButtonDown(0)) //相当于if 判断
-                .First() //只执行一次  Subscribe：订阅的事件或者回调
-                .Subscribe(_ =>
-                {
-                    Debug.Log("鼠标只能点击一次");
+        //Observable.EveryUpdate().
+        //        Where(_ => Input.GetMouseButtonDown(0)) //相当于if 判断
+        //        .First() //只执行一次  Subscribe：订阅的事件或者回调
+        //        .Subscribe(_ =>
+        //        {
+        //            Debug.Log("鼠标只能点击一次");
 
-                }).AddTo(this);
+        //        }).AddTo(this);
 
-        Observable.EveryUpdate().Where(_ => Input.GetMouseButtonDown(0))
-                    .Throttle(System.TimeSpan.FromSeconds(1))
-                    .Subscribe(_ => Debug.Log("一秒过后"));
+        //Observable.EveryUpdate().Where(_ => Input.GetMouseButtonDown(0))
+        //            .Throttle(System.TimeSpan.FromSeconds(1))
+        //            .Subscribe(_ => Debug.Log("一秒过后"));
 
      
     }

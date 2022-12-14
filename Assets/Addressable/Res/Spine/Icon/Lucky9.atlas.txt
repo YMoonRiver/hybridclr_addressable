@@ -1,0 +1,69 @@
+
+Lucky9.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Glow
+  rotate: true
+  xy: 2, 166
+  size: 63, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 283
+  size: 260, 218
+  orig: 260, 218
+  offset: 0, 0
+  index: -1
+c1
+  rotate: false
+  xy: 168, 229
+  size: 68, 52
+  orig: 68, 52
+  offset: 0, 0
+  index: -1
+c2
+  rotate: false
+  xy: 87, 229
+  size: 79, 52
+  orig: 79, 52
+  offset: 0, 0
+  index: -1
+c3
+  rotate: false
+  xy: 68, 181
+  size: 46, 46
+  orig: 46, 46
+  offset: 0, 0
+  index: -1
+c4
+  rotate: false
+  xy: 2, 231
+  size: 83, 50
+  orig: 83, 50
+  offset: 0, 0
+  index: -1
+l
+  rotate: true
+  xy: 483, 442
+  size: 59, 18
+  orig: 59, 18
+  offset: 0, 0
+  index: -1
+n
+  rotate: false
+  xy: 264, 285
+  size: 217, 216
+  orig: 217, 216
+  offset: 0, 0
+  index: -1
+name
+  rotate: false
+  xy: 264, 217
+  size: 221, 66
+  orig: 221, 66
+  offset: 0, 0
+  index: -1

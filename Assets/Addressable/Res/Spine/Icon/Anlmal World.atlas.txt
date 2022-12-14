@@ -1,0 +1,69 @@
+
+Anlmal World.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+UI_Glow
+  rotate: true
+  xy: 2, 354
+  size: 63, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+a1
+  rotate: true
+  xy: 210, 224
+  size: 181, 199
+  orig: 181, 199
+  offset: 0, 0
+  index: -1
+a2
+  rotate: true
+  xy: 68, 312
+  size: 93, 140
+  orig: 93, 140
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 5
+  size: 261, 217
+  orig: 263, 219
+  offset: 1, 1
+  index: -1
+j1
+  rotate: false
+  xy: 92, 417
+  size: 51, 47
+  orig: 53, 49
+  offset: 1, 1
+  index: -1
+j2
+  rotate: false
+  xy: 45, 419
+  size: 45, 45
+  orig: 47, 47
+  offset: 1, 1
+  index: -1
+j3
+  rotate: false
+  xy: 2, 424
+  size: 41, 40
+  orig: 43, 42
+  offset: 1, 1
+  index: -1
+j4
+  rotate: false
+  xy: 145, 416
+  size: 58, 48
+  orig: 60, 50
+  offset: 1, 1
+  index: -1
+name
+  rotate: false
+  xy: 205, 407
+  size: 259, 57
+  orig: 261, 59
+  offset: 1, 1
+  index: -1
