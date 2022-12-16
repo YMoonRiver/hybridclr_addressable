@@ -37,19 +37,19 @@ MonoBehaviour:
     - Assembly-CSharp
     - UniTask.Linq
     - LogViewer
+    - spine-unity
     - UniTask.DOTween
     - HybridCLR.Runtime
     - UniWebView-CSharp
     - UniRx.Examples
     - UniTask.TextMeshPro
     - UniTask.Addressables
-    - spine-unity
     - HybridCLR.Editor
     - GameFramework.Editor
+    - spine-unity-editor
     - UniTask.Editor
     - UGF_Tests
     - UniWebView-CSharp.Editor
-    - spine-unity-editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1
