@@ -129,7 +129,7 @@ namespace Wanderer.GameFramework
 
             Debug.Log("ObjPool Init");
             #endregion
-
+          
             #region state
             //开启整个项目的流程
             FSM.AddFSM<GameStateContext>();

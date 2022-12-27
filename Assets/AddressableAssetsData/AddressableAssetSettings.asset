@@ -39,6 +39,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a96d3c87829dfdc4e8dbac8e7fd2af2a, type: 2}
   - {fileID: 11400000, guid: 8a2160ec5ecfc5b4b81eed2308ba61b0, type: 2}
   - {fileID: 11400000, guid: baa2dd4dbb5ce2741b0d49a7d82519dd, type: 2}
+  - {fileID: 11400000, guid: 762be2394ba980a4d9b19cd952ca68b6, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -95,6 +96,7 @@ MonoBehaviour:
     m_LabelNames:
     - default
     - Hall
+    - Loading
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 621bdaabf08130943aa1bb8407dfc041, type: 2}

@@ -21,6 +21,7 @@ namespace Wanderer.GameFramework
         {
             base.OnEnter(fsm);
             Debug.Log("LaunchGameState");
+            
         }
 
         public override void OnExit(FSM<GameStateContext> fsm)

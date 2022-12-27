@@ -87,6 +87,76 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Hall
+  - m_GUID: c01f33b806fe9884baba3a3f25afe1fb
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 08032fe8dae4b2f4e8687850276ebcbc
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 8045e0245006b8b4985188dc397253ce
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 9bed2d1dffef94642874daa4e5241d64
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 90c1603fa6907fc428cc234b8fae6bb6
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 360ead6864c9f4441b98e583343fb705
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: fc43fad005f7a5745af25871fc4b19d2
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 6bd5e9f9dba86f348ae9a265ab59efb5
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/8.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: fe97af5d257498c4d83dd604b09e9b9f
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/9.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 1bfd8b48d8570274bb02365f21cdb249
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 920a887369946484d9fa6b5e64b89af0
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 954ad4f2d0efc8443b3266135557872e
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 241251d654392184c8287898a3c32b53
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/L1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 92387849ad085ed4b9b9680764248b41
+    m_Address: Assets/Addressable/Hall/Prefabs/Icon/L2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8dc3901bc187ea34c99096a788c3b2fb, type: 2}
   m_SchemaSet:

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7084421098677217343}
   - component: {fileID: 7982388283489030959}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: HotUpdatePrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}

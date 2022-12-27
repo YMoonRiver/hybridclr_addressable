@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   m_Layer: 0
-  m_Name: Main Camera
+  m_Name: UICamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -174,13 +174,13 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 0.00001
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 32
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -213,6 +213,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 990197847, guid: 4f82ec6748dc4664aa601fa518eeb29b, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 990197850, guid: 4f82ec6748dc4664aa601fa518eeb29b, type: 3}
       propertyPath: m_ReferenceResolution.x
       value: 1280
@@ -224,7 +228,11 @@ PrefabInstance:
     - target: {fileID: 990197851, guid: 4f82ec6748dc4664aa601fa518eeb29b, type: 3}
       propertyPath: m_Camera
       value: 
-      objectReference: {fileID: 963194227}
+      objectReference: {fileID: 0}
+    - target: {fileID: 990197851, guid: 4f82ec6748dc4664aa601fa518eeb29b, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8878719370726904946, guid: 4f82ec6748dc4664aa601fa518eeb29b, type: 3}
       propertyPath: m_RootOrder
       value: 0

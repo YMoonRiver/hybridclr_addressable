@@ -18,6 +18,9 @@
     <type fullname="Wanderer.GameFramework.UIContextManager" preserve="all" />
     <type fullname="Wanderer.GameFramework.UIManager" preserve="all" />
   </assembly>
+  <assembly fullname="Libraries">
+    <type fullname="CircularScrollView.UICircularScrollView" preserve="all" />
+  </assembly>
   <assembly fullname="Main">
     <type fullname="Wanderer.GameFramework.GameMode" preserve="all" />
     <type fullname="Wanderer.GameFramework.UGUIView" preserve="all" />
@@ -35,7 +38,6 @@
     <type fullname="System.Security.Permissions.SecurityAction" preserve="all" />
     <type fullname="System.Security.Permissions.SecurityPermissionAttribute" preserve="all" />
     <type fullname="System.Security.UnverifiableCodeAttribute" preserve="all" />
-    <type fullname="System.ValueType" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule">
     <type fullname="UnityEngine.AsyncOperation" preserve="all" />

@@ -177,9 +177,9 @@ namespace Wanderer.GameFramework
         {
             yield return null;
 	    
-	      //删除本地文件
-	   if (File.Exists(localPath))
-	   {
+	        //删除本地文件
+	        if (File.Exists(localPath))
+	        {
                 File.Delete(localPath);
             }
 

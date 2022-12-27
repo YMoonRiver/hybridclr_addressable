@@ -44,7 +44,8 @@ namespace Wanderer.GameFramework
 			var version = GameMode.Resource.Version;
             version.CheckUpdate((needUpdate) =>
             {
-                if (needUpdate)
+				GameMode.UI.Push("Assets/Addressable/Loading/LoadingUIView.prefab");
+				if (needUpdate)
                 {
                     version.UpdateResource(OnResourceUpdateCallback, OnDownloadComplete, OnDownloadError, "Hall");
                 }
