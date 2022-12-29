@@ -8,6 +8,8 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	//System.Action`1<System.Object>
 	//System.Action`2<System.Object,System.Object>
 	//System.Action`2<System.Object,System.Int32>
+	//UnityEngine.Events.UnityAction`1<System.Byte>
+	//UnityEngine.Events.UnityEvent`1<System.Byte>
 	//Wanderer.GameFramework.FSM`1<System.Object>
 	//Wanderer.GameFramework.FSMState`1<System.Object>
 	//Wanderer.GameFramework.GameEventArgs`1<System.Object>

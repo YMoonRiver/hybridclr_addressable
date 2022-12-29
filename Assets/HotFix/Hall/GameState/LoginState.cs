@@ -49,6 +49,9 @@ public class LoginState : FSMState<PlayStateContext>
         {
             _flagLogin = false;
             GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/LoginUIView.prefab");
+            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/SystemUIView.prefab");
+            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/WordsRollUIView.prefab");
+            GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/WordsRollUIView.prefab"]);
         }
     }
     #endregion

@@ -18,9 +18,8 @@ public class HotUpdateMain : MonoBehaviour
 
         gameObject.AddComponent<CreateByCode>();
 
-        Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======2123");
+        Debug.Log("=======看到此条日志代表你成功运行了示例项目的热更新代码=======111");
 
-        GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Loading/LoadingUIView.prefab"]);
         //开始游戏
         Debug.Log("PlayStateContext Begin");
         GameMode.FSM.AddFSM<PlayStateContext>();

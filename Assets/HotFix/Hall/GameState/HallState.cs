@@ -12,6 +12,7 @@ public class HallState : FSMState<PlayStateContext>
         base.OnEnter(fsm);
         Debug.Log("HallState");
         GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/HallUIView.prefab");
+        
         GameMode.Resource.Asset.LoadSceneAsync("Assets/Addressable/Hall/Scenes/Hall.unity", UnityEngine.SceneManagement.LoadSceneMode.Single,
             (obj) =>
             {

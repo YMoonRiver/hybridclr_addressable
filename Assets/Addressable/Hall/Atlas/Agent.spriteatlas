@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Agent
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d6c69ab3f0f3d564db232e6ec268b39e, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bb5177005843b8b4ea91574c74342d5f, type: 3}
+  - {fileID: 21300000, guid: ccf34770a7d3f8e4286c925301823de3, type: 3}
+  - {fileID: 21300000, guid: 8d29ed315a9882847b1c5e9bae704205, type: 3}
+  - {fileID: 21300000, guid: c7190bf1d02ea42439e911d82e8f7ead, type: 3}
+  - {fileID: 21300000, guid: 2bbea572ebb09474d86b3cda6c1231d6, type: 3}
+  - {fileID: 21300000, guid: 10401e23b7d5cea46bb1e2d084bbd9f9, type: 3}
+  - {fileID: 21300000, guid: 573800737137f9a48a5d82d703652c80, type: 3}
+  - {fileID: 21300000, guid: 807d89d34fe8c654aafd0464193c726f, type: 3}
+  - {fileID: 21300000, guid: a8dd97e3a3b593b43a3836d39cc3888a, type: 3}
+  - {fileID: 21300000, guid: 2c3b1724ab5cd834db1f1c2a22038a9c, type: 3}
+  - {fileID: 21300000, guid: 73e116648c4ca524fb2e4a558c4b7977, type: 3}
+  - {fileID: 21300000, guid: 87e533b458d341348b52768cfb35d535, type: 3}
+  - {fileID: 21300000, guid: cea7d3254490fd14d88008ea1359a638, type: 3}
+  - {fileID: 21300000, guid: 225c3a558f8d9944bbf332521bd59407, type: 3}
+  - {fileID: 21300000, guid: 250db8d586e828e40909e4594f2d570d, type: 3}
+  - {fileID: 21300000, guid: fa27e01625cdcba45bd35999fda78ed3, type: 3}
+  - {fileID: 21300000, guid: ceae1b664ff07a8408c96abf0e420fdb, type: 3}
+  - {fileID: 21300000, guid: 31d736869b3aeef40a47cdd5041df628, type: 3}
+  - {fileID: 21300000, guid: 64a32ab64adf34f41a7a4d0e18c8fb75, type: 3}
+  - {fileID: 21300000, guid: cae5ddc624687ab43987455c25704a1e, type: 3}
+  - {fileID: 21300000, guid: 88c8e9372d1e1b74787ab59700c192da, type: 3}
+  - {fileID: 21300000, guid: d7281297e8b2c854d9c97109e6934d3d, type: 3}
+  - {fileID: 21300000, guid: abc73a97a38731d41bfa300f868aa792, type: 3}
+  - {fileID: 21300000, guid: de3c9118cf1274b4281a7ad7deb44abf, type: 3}
+  - {fileID: 21300000, guid: ee4ffa69d66ae784abd08eef4cf2849a, type: 3}
+  - {fileID: 21300000, guid: d38bf7a955130b14f887309f406c5031, type: 3}
+  - {fileID: 21300000, guid: b4388dba39ca9f04c9e48c44d2789a62, type: 3}
+  - {fileID: 21300000, guid: efa091ea65193fd43b9076d3f32c0659, type: 3}
+  - {fileID: 21300000, guid: c9755feafb917af4283e634939f9cc7b, type: 3}
+  - {fileID: 21300000, guid: f83acf0b765316740ac050a7c06fc5b5, type: 3}
+  - {fileID: 21300000, guid: c209336bf5c3a354d94de85947d23bfa, type: 3}
+  - {fileID: 21300000, guid: f3206babf2f7cc240a31fda1021c44c4, type: 3}
+  - {fileID: 21300000, guid: 9d2bcbebbb2edd94f9ee9283486760d3, type: 3}
+  - {fileID: 21300000, guid: f102de1ca09cf43409788f6dba2e1777, type: 3}
+  - {fileID: 21300000, guid: 3a2a607cec465f84f840a89ef1b3f327, type: 3}
+  - {fileID: 21300000, guid: be0391cca2c84d64582b18b07ce047b6, type: 3}
+  - {fileID: 21300000, guid: 2136a40d72576a04689271b188aef56a, type: 3}
+  - {fileID: 21300000, guid: 1fead96d507b3a84ba7c944dafda6941, type: 3}
+  - {fileID: 21300000, guid: d3c1da6d0f42ece48a3ee8bb25173ad8, type: 3}
+  - {fileID: 21300000, guid: 9e67d4fd6e022234a99d717a0cc6002c, type: 3}
+  - {fileID: 21300000, guid: b498fbce514bdb04c8f736532b4e3799, type: 3}
+  - {fileID: 21300000, guid: d9c761de5e915c84cad1e7e86e12b635, type: 3}
+  - {fileID: 21300000, guid: a403ebaf95e7fe9499377537b6380d01, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Record_AfterWithdraw
+  - Record_WithdrawFee
+  - Commission_Totalcommission
+  - NormalAgent4
+  - UI_28
+  - ItemBg
+  - UI_22
+  - UI_BTN_12
+  - line2
+  - Agent_Bg3
+  - Commission_NumberofNewCashin
+  - MYREFERRAL7
+  - CurrentCommission3
+  - Agent_Withdraw
+  - UI_BTN_1
+  - line1
+  - BEOURAGENTS
+  - Record_AfterExchange
+  - Withdraw_ExchangeRecord
+  - Withdraw-Record
+  - Record_BeforeExchange
+  - Record_Time
+  - UI_30
+  - Agent_Bg2
+  - Agent_Copy
+  - UI_26
+  - Agent_Exchenge
+  - Wallet_BackBt
+  - Commission_Date
+  - LEVEL4
+  - UI_BTN_11
+  - Record_Amount1
+  - MYCOMMISSION
+  - Agent_Gold
+  - COMMISSIONRATES1
+  - Agent_Bg1
+  - UI_BTN_2
+  - Commission_Grandtotalbetamount
+  - Agent_Bg4
+  - Record_Before
+  - Agent_Bind
+  - UI_24
+  - Record_Status
+  m_RenderDataMap: {}
+  m_Tag: Agent
+  m_IsVariant: 0

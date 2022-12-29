@@ -35,6 +35,7 @@ namespace Wanderer.GameFramework
             transform.Find("Register/Button_Close").GetComponent<Button>().onClick.AddListener(() => {
                 objRegister.SetActive(false);
             });
+
         }
 
         public override void OnFree(IUIContext uiContext)

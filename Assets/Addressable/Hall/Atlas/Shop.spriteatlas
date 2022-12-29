@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shop
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 3128fe8e1f385014dbb88f5b15267861, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d48db3211b48f6143b2ccb22600ea479, type: 3}
+  - {fileID: 21300000, guid: 0f759841cb8e7444aba67590882098ed, type: 3}
+  - {fileID: 21300000, guid: 8d638ba1ed088b64a8be441daa612b80, type: 3}
+  - {fileID: 21300000, guid: f1b2b2d2c0687844db7dfe78301e8eed, type: 3}
+  - {fileID: 21300000, guid: d4fdb2e22a057f045834a3b486615863, type: 3}
+  - {fileID: 21300000, guid: 5250f0332933d0042b24d1a358ab08b8, type: 3}
+  - {fileID: 21300000, guid: 4a3ce6f379833294eb61fe4537666831, type: 3}
+  - {fileID: 21300000, guid: 0265b2b5d7ee9ab4aa3f7c166cb0a3ef, type: 3}
+  - {fileID: 21300000, guid: fcbce376c5b2aa344912e14121d57979, type: 3}
+  - {fileID: 21300000, guid: 1c3e21b6983d37f4b9dec37380c5bca4, type: 3}
+  - {fileID: 21300000, guid: b33b42f67588c254e900c41257fb0cce, type: 3}
+  - {fileID: 21300000, guid: 16cefe076a86ca34186964ad53e5f942, type: 3}
+  - {fileID: 21300000, guid: c53547682ab1bae489dd19d967a06559, type: 3}
+  - {fileID: 21300000, guid: bcdd6009feb4b3f4686898e091645d3e, type: 3}
+  - {fileID: 21300000, guid: 85163c89928be864cb14e859cf41f28a, type: 3}
+  - {fileID: 21300000, guid: d8810b4a2d159e748bf5fac39d42b5b6, type: 3}
+  - {fileID: 21300000, guid: c8ebe3cb5c8042747b33ece89bfb4676, type: 3}
+  - {fileID: 21300000, guid: 8a0a6bbcbac37d446b70f5fdbc76e349, type: 3}
+  - {fileID: 21300000, guid: 311a70fc97d2b8e40bb0a7364ba42cdf, type: 3}
+  - {fileID: 21300000, guid: fbd8fc7dc1798334d847c0c72176fbe4, type: 3}
+  - {fileID: 21300000, guid: 455711ad9966fac40a7634e0e3a4a8cb, type: 3}
+  - {fileID: 21300000, guid: e21bf7fd6d32ee64eadf261a56a9070e, type: 3}
+  - {fileID: 21300000, guid: 4773e41f79e45e14e8fd63bcdf936c49, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Wallet_GoldBg
+  - UI_HaiSheng_BG
+  - UI_a5
+  - UI_a1
+  - UI_a6
+  - Wallet_Gold
+  - UI_a7
+  - UI_a3
+  - UI_a4
+  - Wallet_Add
+  - UI_BTN_11
+  - UI_BTN_Digitel
+  - UI_BTN_1
+  - UI_line
+  - UI_BTN_Record
+  - Wallet_BackBt
+  - zhongjin-jinbi
+  - UI_a2
+  - UI_Frame
+  - UI_a8
+  - UI_BTN_2
+  - UI_BTN_12
+  - UI_BTN_GCash
+  m_RenderDataMap: {}
+  m_Tag: Shop
+  m_IsVariant: 0

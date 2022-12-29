@@ -157,6 +157,46 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Hall
+  - m_GUID: ca1ed9aac7a502842b68f00cd2db7204
+    m_Address: Assets/Addressable/Hall/Atlas/Agent.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 471cd52aaf743af498ab6c324af1cd4e
+    m_Address: Assets/Addressable/Hall/Atlas/System.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: f345a199293cef545937102a5cc2a87f
+    m_Address: Assets/Addressable/Hall/Atlas/WordsRoll.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 39fbf6fdbb1b4834787eb56b0d7ded25
+    m_Address: Assets/Addressable/Hall/Prefabs/AgentUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 2d463c16d1caad844a458179ac15fa70
+    m_Address: Assets/Addressable/Hall/Prefabs/SystemUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: e0b6587fc287ec344ad1af6e588659ae
+    m_Address: Assets/Addressable/Hall/Prefabs/WordsRollUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 7741fee239579bb4cac135f6cafc1677
+    m_Address: Assets/Addressable/Hall/Atlas/Shop.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 5dc4a4a66c3dbb242b777d9bfca5028e
+    m_Address: Assets/Addressable/Hall/Prefabs/ShopUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8dc3901bc187ea34c99096a788c3b2fb, type: 2}
   m_SchemaSet:

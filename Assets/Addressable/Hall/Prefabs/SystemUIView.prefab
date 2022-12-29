@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 4967613608368057451}
   - component: {fileID: 8470957733745918983}
   - component: {fileID: 4856143346232643415}
+  - component: {fileID: -4094089225902852701}
   m_Layer: 5
   m_Name: SystemUIView
   m_TagString: Untagged
@@ -330,6 +331,21 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-4094089225902852701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510886880290584396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 155f4a86a6e82434ebb9ff05e50fa256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  btnClose: {fileID: 6925553467715794894}
+  btnYes: {fileID: 7045040852970113948}
+  btnCancel: {fileID: 4366564771576256325}
 --- !u!1 &1884726152068069050
 GameObject:
   m_ObjectHideFlags: 0
