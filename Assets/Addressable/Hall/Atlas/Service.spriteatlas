@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Service
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: eac83d55e60a88643a122ebcbcf92d13, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1161b360a7ff6c44ca43d4076b608896, type: 3}
+  - {fileID: 21300000, guid: 8a4c33b53ae7d9d478f7292fefaab351, type: 3}
+  - {fileID: 21300000, guid: 3e8e6c46b94bfbe4f9cd7b7cb7ffe194, type: 3}
+  - {fileID: 21300000, guid: d091d4b6c44fe54498bba1fdc38f4151, type: 3}
+  - {fileID: 21300000, guid: b95bf4e69643193489a46d7d51c0e810, type: 3}
+  - {fileID: 21300000, guid: 33a67ca72f16ef14eb4d4f7818e3718f, type: 3}
+  - {fileID: 21300000, guid: 6415c928dfeccbd47b2cf1ea0f15182e, type: 3}
+  - {fileID: 21300000, guid: 5bba8d2a3f23d4447a9892d02aa5d126, type: 3}
+  - {fileID: 21300000, guid: a69d741c9978f2345bac60a552b0e860, type: 3}
+  - {fileID: 21300000, guid: c0b97e0f01b8033469738496acfefb5c, type: 3}
+  - {fileID: 21300000, guid: 5d04f53f1fbb6f649a8a8ce75452d216, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Service_CloseBt
+  - Service_Title
+  - FunctionBlack
+  - UI_11
+  - UI_01
+  - Service_bg
+  - Common_Pop_Min
+  - UI_line
+  - UI_Q
+  - UI_A
+  - UI_02
+  m_RenderDataMap: {}
+  m_Tag: Service
+  m_IsVariant: 0

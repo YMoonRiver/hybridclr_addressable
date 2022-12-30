@@ -16,15 +16,15 @@ namespace Wanderer.GameFramework
 
             btnClose.onClick.AddListener(() =>
             {
-                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/SystemUIView.prefab"]);
+                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab"]);
             });
             btnYes.onClick.AddListener(() =>
             {
-                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/SystemUIView.prefab"]);
+                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab"]);
             });
             btnCancel.onClick.AddListener(() =>
             {
-                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/SystemUIView.prefab"]);
+                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab"]);
             });
         }
 

@@ -32,7 +32,7 @@ public class LoginState : FSMState<PlayStateContext>
     public override void OnExit(FSM<PlayStateContext> fsm)
     {
         base.OnExit(fsm);
-        GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/LoginUIView.prefab"]);
+        GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab"]);
         GameFrameworkMode.GetModule<EventManager>().RemoveListener<LoginToHallEventArgs>(OnHall);
     }
 
@@ -48,10 +48,10 @@ public class LoginState : FSMState<PlayStateContext>
         if (_flagLogin)
         {
             _flagLogin = false;
-            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/LoginUIView.prefab");
-            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/SystemUIView.prefab");
-            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/WordsRollUIView.prefab");
-            GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/WordsRollUIView.prefab"]);
+            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab");
+            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab");
+            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab");
+            GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab"]);
         }
     }
     #endregion

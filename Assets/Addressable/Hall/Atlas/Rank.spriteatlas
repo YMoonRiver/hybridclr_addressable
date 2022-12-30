@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rank
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: bce65393e17a2fe408c91febd3128ac3, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 091b55c301bf6cc479036c5ab2fc0562, type: 3}
+  - {fileID: 21300000, guid: 42dcdd143ba3ac249aa8270ddfaca8f0, type: 3}
+  - {fileID: 21300000, guid: 31f885f41e06c344e97f3067023a1597, type: 3}
+  - {fileID: 21300000, guid: b5f407658abc9c04d98cc7ab15525b55, type: 3}
+  - {fileID: 21300000, guid: 37bb46c6465859a44bb7f68bd89d0900, type: 3}
+  - {fileID: 21300000, guid: 5279756814de07e4fa177afacba05fd5, type: 3}
+  - {fileID: 21300000, guid: 0ef910d96f0f81f4c953b9146e26983c, type: 3}
+  - {fileID: 21300000, guid: 2202f88af870e1645a800736f453376a, type: 3}
+  - {fileID: 21300000, guid: 56b485dde696ea04391558644efd537f, type: 3}
+  - {fileID: 21300000, guid: c0749ddd72970d44fa1fc5868e137041, type: 3}
+  - {fileID: 21300000, guid: e7c8d89e6a829c44e81bebef632bf601, type: 3}
+  - {fileID: 21300000, guid: 4464168fce96a0244a7005d11ba7f2ea, type: 3}
+  - {fileID: 21300000, guid: a2b8e8df89a763a488614512bdd96722, type: 3}
+  - {fileID: 21300000, guid: 743e74ff63db6a9499de72dcff484ae5, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - UI_c3
+  - Rank_bg3
+  - Rank_bg1
+  - UI_2
+  - img_jiesuan_jiangzhuang_shibai_BG
+  - Rank_bg4
+  - UI_c2
+  - UI_3
+  - UI_1
+  - Rank_CloseBt
+  - TOP
+  - line
+  - Rank_bg2
+  - Commission
+  m_RenderDataMap: {}
+  m_Tag: Rank
+  m_IsVariant: 0

@@ -15,7 +15,7 @@ namespace Wanderer.GameFramework
             base.OnInit(uiContext);
 
             btnClose.onClick.AddListener(() => {
-                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/AgentUIView.prefab"]);
+                GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/AgentUIView.prefab"]);
             });
 
             
