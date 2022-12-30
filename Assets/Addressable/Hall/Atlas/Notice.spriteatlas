@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Notice
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: d1ea689743babde44abeb19fa70a2aff, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 6719f0f07fd11d24ebcdbff36b8477e9, type: 3}
+  - {fileID: 21300000, guid: 2cee1593f2c89c1438914a76b9c607be, type: 3}
+  - {fileID: 21300000, guid: ccf5cbf44e9bc864f80efd625baaf9e7, type: 3}
+  - {fileID: 21300000, guid: 0f808f1675bbe8646bf340860766a3e0, type: 3}
+  - {fileID: 21300000, guid: e7690b26283fdd1458854b7c66450dcb, type: 3}
+  - {fileID: 21300000, guid: bc9f5c568ed07fa4c8915f839057dac0, type: 3}
+  - {fileID: 21300000, guid: 93f29bb625eff0049853e5b3672d20d0, type: 3}
+  - {fileID: 21300000, guid: 7233393721317584b8acc83ab037b498, type: 3}
+  - {fileID: 21300000, guid: 3e28c5a744a512f4cafdd5e2d237e409, type: 3}
+  - {fileID: 21300000, guid: 447f18b7405f6584394f19b5c341b03d, type: 3}
+  - {fileID: 21300000, guid: e95c7918a5e50874caab813e19835054, type: 3}
+  - {fileID: 21300000, guid: 54e1ab28f7fe72c46a0da91ac206aa69, type: 3}
+  - {fileID: 21300000, guid: 28719638fe5ef7c48abc2b6c016c3dfe, type: 3}
+  - {fileID: 21300000, guid: 2700ab78c69883743aa87aa0aaa4d093, type: 3}
+  - {fileID: 21300000, guid: 8fc0cd3990fb9d74d938109c235b6097, type: 3}
+  - {fileID: 21300000, guid: 979cc279fcf3fdf4f850b45c6fe95d65, type: 3}
+  - {fileID: 21300000, guid: 957af5b9cd2671c4ea71d1ef18496b83, type: 3}
+  - {fileID: 21300000, guid: c92b228a2bde0af49aea3313147f271a, type: 3}
+  - {fileID: 21300000, guid: f39f231cd0f486643a1ea561d099220a, type: 3}
+  - {fileID: 21300000, guid: 1b3a393c0347f0e42a92fb7765931533, type: 3}
+  - {fileID: 21300000, guid: 65ffb2bc7ef2af94482b9765d5b4c671, type: 3}
+  - {fileID: 21300000, guid: 094429cc402d8b3409c60b1a63fc09a0, type: 3}
+  - {fileID: 21300000, guid: 43f76b1d187db0243b52d118fcaff106, type: 3}
+  - {fileID: 21300000, guid: db3ffc7d930eeba48a701b472aa5d4fc, type: 3}
+  - {fileID: 21300000, guid: 6fed0e1eadff3474590bed1d2a88a41b, type: 3}
+  - {fileID: 21300000, guid: b4f8aa2e0d796c44f85a2ff7408c2db6, type: 3}
+  - {fileID: 21300000, guid: a133119e17d9a01428497a521bda13e3, type: 3}
+  - {fileID: 21300000, guid: 91bbf50f0569c7d41a8cfc382be870b1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - GameRules 1
+  - Notice
+  - notice_Delete
+  - READ
+  - 45674
+  - UI_Mail_Redpoint
+  - laba
+  - Return
+  - a1
+  - NODATA
+  - notice_4
+  - notice_1
+  - Yes
+  - notice_2
+  - bg
+  - 01
+  - Details 1
+  - notice_CloseBt
+  - notice_3
+  - CollectPrize
+  - gou
+  - xiao_btn_blueadd
+  - GameRules
+  - 02
+  - a2
+  - di
+  - Details
+  - UI_Mail_Station_Get
+  m_RenderDataMap: {}
+  m_Tag: Notice
+  m_IsVariant: 0

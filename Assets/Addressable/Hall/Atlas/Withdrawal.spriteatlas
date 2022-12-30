@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Withdrawal
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 7dbf3e6c796bca644b8afbedf1b8169c, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: e9369061965283741a4feb77c2897a6f, type: 3}
+  - {fileID: 21300000, guid: 4f17c54215167784ebdbce4d98c0a48b, type: 3}
+  - {fileID: 21300000, guid: 5e6eaaa2ba9cd5e4a9de6e0fd5c9e9a2, type: 3}
+  - {fileID: 21300000, guid: dc7219b200c165544ab5af99bb641524, type: 3}
+  - {fileID: 21300000, guid: 9ca1f504efa3e1e4fb35aabd09e16319, type: 3}
+  - {fileID: 21300000, guid: 9de6d105aedfa0e4cb39b91f351607b9, type: 3}
+  - {fileID: 21300000, guid: 1ec4fc451a60e9148bdc1f25b2cd0ab4, type: 3}
+  - {fileID: 21300000, guid: 4a70c7852843a084b8e8c404b9e47f48, type: 3}
+  - {fileID: 21300000, guid: b7073c66e98a1614abbb8ecc86d125e9, type: 3}
+  - {fileID: 21300000, guid: 68fbe0b63f9433f4b9b7fd05fac7efa5, type: 3}
+  - {fileID: 21300000, guid: 6f4386f6373a4a94d86839bf96f56580, type: 3}
+  - {fileID: 21300000, guid: fab80a175d986414192d5a5331dc0275, type: 3}
+  - {fileID: 21300000, guid: 6fc90f470d196014f846d257af79bd61, type: 3}
+  - {fileID: 21300000, guid: 279e9be743e51f244af15a5787e90cdd, type: 3}
+  - {fileID: 21300000, guid: 4f991c589cac88649abff9f806c80c3d, type: 3}
+  - {fileID: 21300000, guid: ffe0e8b9a7d89844dbb23319a89993e9, type: 3}
+  - {fileID: 21300000, guid: ea6879aae0521384fae4a11d78594615, type: 3}
+  - {fileID: 21300000, guid: 71a650da7b32c4440b31fc85d703989a, type: 3}
+  - {fileID: 21300000, guid: 85b2cffa9cae6564cb4768e2bc891fa6, type: 3}
+  - {fileID: 21300000, guid: 17d7feaf88f416b41873e141ce685857, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Username
+  - Withdrawal_5
+  - Withdrawal_CloseBt
+  - Withdrawal_1
+  - line
+  - CashBlance999
+  - Withdrawal_Bg
+  - Withdrawal_14
+  - UI_12
+  - UI_11
+  - Withdrawal_7
+  - Withdrawal_9
+  - Withdrawal_10
+  - Withdrawal_4
+  - Withdrawal_8
+  - Withdrawal_3
+  - Withdrawal_6
+  - Withdrawal_11
+  - Change4354
+  - Withdrawal_2
+  m_RenderDataMap: {}
+  m_Tag: Withdrawal
+  m_IsVariant: 0

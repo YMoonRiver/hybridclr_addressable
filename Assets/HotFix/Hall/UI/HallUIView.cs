@@ -13,6 +13,10 @@ namespace Wanderer.GameFramework
         public Button btnRank;
         public Button btnAdd;
         public Button btnService;
+        public Button btnNotice;
+        public Button btnWithdrawal;
+        public Button btnActivity;
+        public Button btnInfo;
         public override void OnInit(IUIContext uiContext)
         {
             base.OnInit(uiContext);
@@ -41,6 +45,22 @@ namespace Wanderer.GameFramework
             btnService.onClick.AddListener(() => {
                 Debug.Log("btnService");
                 GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/ServiceUIView.prefab");
+            });
+            btnNotice.onClick.AddListener(() => {
+                Debug.Log("btnNotice");
+                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/NoticeUIView.prefab");
+            });
+            btnWithdrawal.onClick.AddListener(() => {
+                Debug.Log("btnWithdrawal");
+                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WithdrawalUIView.prefab");
+            });
+            btnActivity.onClick.AddListener(() => {
+                Debug.Log("btnActivity");
+                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/ActivityUIView.prefab");
+            });
+            btnInfo.onClick.AddListener(() => {
+                Debug.Log("btnInfo");
+                //GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WithdrawalUIView.prefab");
             });
         }
 

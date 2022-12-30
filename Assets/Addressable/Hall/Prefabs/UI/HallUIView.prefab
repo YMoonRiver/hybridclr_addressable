@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 71665465774778416}
   - component: {fileID: 3172197216900314169}
   m_Layer: 5
-  m_Name: HeadFrame
+  m_Name: ButtonHeadFrame
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -772,6 +772,10 @@ MonoBehaviour:
   btnRank: {fileID: 71665467708091298}
   btnAdd: {fileID: 71665467553664205}
   btnService: {fileID: 9158746723385262678}
+  btnNotice: {fileID: 3088880116220331455}
+  btnWithdrawal: {fileID: 6817454689484426551}
+  btnActivity: {fileID: 7644567250117361471}
+  btnInfo: {fileID: 3172197216900314169}
 --- !u!1 &71665467632496817
 GameObject:
   m_ObjectHideFlags: 0
