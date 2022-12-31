@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Info
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: f89700be99cfd5140afe499cc9239faa, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: d090f03051fe21f45961bffa398e20a5, type: 3}
+  - {fileID: 21300000, guid: 7dd14ac0defce8a45a48f0118a4ae7e8, type: 3}
+  - {fileID: 21300000, guid: 11b4fb418dd8ea34b98d591ceeff852f, type: 3}
+  - {fileID: 21300000, guid: 3d3b11a1ee058b04ea27baf797750a10, type: 3}
+  - {fileID: 21300000, guid: 91ac6082a2909504c98021dca8d2042a, type: 3}
+  - {fileID: 21300000, guid: ca877fa630aad2a4082c502b8c911754, type: 3}
+  - {fileID: 21300000, guid: e43e41c6a675bee4e872358b5534a4cb, type: 3}
+  - {fileID: 21300000, guid: 84094d974ce0af24eb2378377c220fdb, type: 3}
+  - {fileID: 21300000, guid: 9b51b3a7681de434186075788b631619, type: 3}
+  - {fileID: 21300000, guid: 78e7d5a7b0f74234eaa45573632b0eed, type: 3}
+  - {fileID: 21300000, guid: 6bf924d7020fb7943a5a0efdf35b4346, type: 3}
+  - {fileID: 21300000, guid: c0357b08e07c9264096b7eccbd5672ff, type: 3}
+  - {fileID: 21300000, guid: 7c91775834f74f44cb297f2a375f4115, type: 3}
+  - {fileID: 21300000, guid: 55533f78df884f14b9cef3c49a6db6e7, type: 3}
+  - {fileID: 21300000, guid: 61edf6b8b005a0c4594dfbe8ee43ff0e, type: 3}
+  - {fileID: 21300000, guid: fd694ae8f362df446bf5f65b35b28237, type: 3}
+  - {fileID: 21300000, guid: ff6cfee80f4be714eacbe02365b77dd2, type: 3}
+  - {fileID: 21300000, guid: a75dc7b9e6ec8e5419a4ad4c77347a64, type: 3}
+  - {fileID: 21300000, guid: fd84415a163c8854da92ad8d45192102, type: 3}
+  - {fileID: 21300000, guid: 1a6d3f5a0ef41de44982499152efff9f, type: 3}
+  - {fileID: 21300000, guid: d0c783bac5d6a4d4c9ea3e514cf1216c, type: 3}
+  - {fileID: 21300000, guid: 284fbead8e81bbe4499adc6dce87b54b, type: 3}
+  - {fileID: 21300000, guid: a5a4cffd28d894b4bab3c70bf4f28440, type: 3}
+  - {fileID: 21300000, guid: 82bb572e7e937154fa84f1084566478d, type: 3}
+  - {fileID: 21300000, guid: c8b7eb6e8f2890f44b869e39b8a313d3, type: 3}
+  - {fileID: 21300000, guid: 39a2b90fae63b85428f291407bf39a22, type: 3}
+  - {fileID: 21300000, guid: 5c45098f60a7de04093022725044d228, type: 3}
+  - {fileID: 21300000, guid: c3607bbf52841d141a9714547b479e26, type: 3}
+  - {fileID: 21300000, guid: febf75efe104d6f4386d8809f5af01fd, type: 3}
+  - {fileID: 21300000, guid: 13b91aef309e11649b1c354d829f2c5c, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - EditProfile_2
+  - AddBt
+  - EditProfileBg
+  - EditorBt
+  - bx1
+  - bx2
+  - Personallnformation
+  - CopyBt
+  - EditProfile_5
+  - Nickname
+  - $
+  - EditProfile
+  - CloseBt
+  - EditorBt2
+  - HeadFram
+  - EditProfile_4
+  - EditProfile_1
+  - PerSonalSignature
+  - EditProfile_7
+  - EditProfile_3
+  - img_meiribaoxiang01_07
+  - G
+  - ID
+  - Phonenumber
+  - yuanjiaobg
+  - InputBg
+  - Choose_title_bg_img
+  - BackBt
+  - EditProfile_6
+  - tijiao-3
+  m_RenderDataMap: {}
+  m_Tag: Info
+  m_IsVariant: 0

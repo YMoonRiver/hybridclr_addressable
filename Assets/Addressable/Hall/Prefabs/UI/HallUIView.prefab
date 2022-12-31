@@ -776,6 +776,8 @@ MonoBehaviour:
   btnWithdrawal: {fileID: 6817454689484426551}
   btnActivity: {fileID: 7644567250117361471}
   btnInfo: {fileID: 3172197216900314169}
+  btnDaily: {fileID: 8156287850829298265}
+  btnSetting: {fileID: 71665467516462233}
 --- !u!1 &71665467632496817
 GameObject:
   m_ObjectHideFlags: 0

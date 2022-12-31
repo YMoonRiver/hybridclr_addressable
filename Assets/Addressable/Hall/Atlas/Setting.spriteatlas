@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Setting
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 0
+      compressionQuality: 0
+      maxTextureSize: 0
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: iPhone
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 66
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 47
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 655da2ed28cc84042adc1e588f5eef05, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9353fd318829a364ab734ad8170459ee, type: 3}
+  - {fileID: 21300000, guid: 8b5b7642528310648a9ab0a43039eac4, type: 3}
+  - {fileID: 21300000, guid: e47f2a75f12f62248bdd0c4f947ef6b9, type: 3}
+  - {fileID: 21300000, guid: fcc86726b3cdbaf49af18678f9855037, type: 3}
+  - {fileID: 21300000, guid: 494885a627a4b744db65c8ea918d51fd, type: 3}
+  - {fileID: 21300000, guid: 3e65cac6b37326b40811b14f1cf309b8, type: 3}
+  - {fileID: 21300000, guid: d27bd2699048f0f43804d7426f7cef5e, type: 3}
+  - {fileID: 21300000, guid: 3569deba16dc8b34aaa9e285604b9c07, type: 3}
+  - {fileID: 21300000, guid: 0e976f0ca581dab4c9a78706cc6fe78a, type: 3}
+  - {fileID: 21300000, guid: 3bc9126cc864a31439f6db273e173cb5, type: 3}
+  - {fileID: 21300000, guid: 279caa9dc0ca4204889a4cbdbcffb47c, type: 3}
+  - {fileID: 21300000, guid: 9859a3febc5e8074088dffb1bfc60f4f, type: 3}
+  - {fileID: 21300000, guid: a38d939f1f6a5bf4aabdf7b0afe34cbe, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Terms-and-conditions
+  - Agent_BTN_Return_1
+  - BlackBg
+  - UI_CB_OFF
+  - Setting_Title
+  - UI_CB_ON
+  - ExitBt
+  - Pleasefillinthepaymentinformationbeforewithdraw
+  - Common_Pop_Min
+  - Termsandconditions
+  - S1
+  - S0
+  - UI_BT_Service_1
+  m_RenderDataMap: {}
+  m_Tag: Setting
+  m_IsVariant: 0

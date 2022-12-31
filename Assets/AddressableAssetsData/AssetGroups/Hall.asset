@@ -247,6 +247,31 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Hall
+  - m_GUID: 00ffbaeb9321efa48949538a68e26ee1
+    m_Address: Assets/Addressable/Hall/Atlas/Info.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: a614fecf2702cd34086b36df265166bb
+    m_Address: Assets/Addressable/Hall/Prefabs/UI/InfoUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: a5ef9b79d09cc7b45a5d50e47d9a61c2
+    m_Address: Assets/Addressable/Hall/Prefabs/UI/DailyUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: e6402da6bbdf9e940800266073020a61
+    m_Address: Assets/Addressable/Hall/Atlas/Setting.spriteatlas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
+  - m_GUID: 2a3ddb6057913b44dafb907e5e0edfca
+    m_Address: Assets/Addressable/Hall/Prefabs/UI/SettingUIView.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Hall
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 8dc3901bc187ea34c99096a788c3b2fb, type: 2}
   m_SchemaSet:

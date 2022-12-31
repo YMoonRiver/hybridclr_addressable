@@ -17,6 +17,8 @@ namespace Wanderer.GameFramework
         public Button btnWithdrawal;
         public Button btnActivity;
         public Button btnInfo;
+        public Button btnDaily;
+        public Button btnSetting;
         public override void OnInit(IUIContext uiContext)
         {
             base.OnInit(uiContext);
@@ -60,7 +62,15 @@ namespace Wanderer.GameFramework
             });
             btnInfo.onClick.AddListener(() => {
                 Debug.Log("btnInfo");
-                //GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WithdrawalUIView.prefab");
+                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/InfoUIView.prefab");
+            });
+            btnDaily.onClick.AddListener(() => {
+                Debug.Log("btnDaily");
+                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/DailyUIView.prefab");
+            });
+            btnSetting.onClick.AddListener(() => {
+                Debug.Log("btnSetting");
+                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SettingUIView.prefab");
             });
         }
 
