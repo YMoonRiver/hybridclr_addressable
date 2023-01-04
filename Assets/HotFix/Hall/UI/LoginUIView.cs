@@ -47,7 +47,7 @@ namespace Wanderer.GameFramework
         void OnGuest()
         {
             Debug.Log("OnGuest");
-            GameMode.Event.Trigger(this, new LoginToHallEventArgs());
+            GameMode.Event.Trigger(this, new StateEventArgs() {state = StateEventArgs.State.hall});
         }
 
         void OnRegister()

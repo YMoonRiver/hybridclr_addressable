@@ -13,9 +13,9 @@ using UnityEngine;
 
 namespace Wanderer.GameFramework
 {
-    public class StateEventArgs
-    {
-    }
+    //public class StateEventArgs
+    //{
+    //}
 
 
 }

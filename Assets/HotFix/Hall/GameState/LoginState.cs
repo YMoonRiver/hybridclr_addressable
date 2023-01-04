@@ -6,59 +6,54 @@ using Wanderer.GameFramework;
 [FSM(FSMStateType.Start)]
 public class LoginState : FSMState<PlayStateContext>
 {
-    private bool _flag = false;
-    private bool _flagLogin = false;
+    FSM<PlayStateContext> _fsm;
+
     #region ÖØÐ´º¯Êý
     public override void OnInit(FSM<PlayStateContext> fsm)
     {
         base.OnInit(fsm);
+        _fsm = fsm;
     }
     public override void OnEnter(FSM<PlayStateContext> fsm)
     {
         base.OnEnter(fsm);
-        _flag = false;
+        Debug.Log("LoginState");
+        GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab");
+        GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab");
+        GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab");
+        GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab"]);
 
         GameMode.Resource.Asset.LoadSceneAsync("Assets/Addressable/Hall/Scenes/Login.unity", UnityEngine.SceneManagement.LoadSceneMode.Single,
             (obj) =>
             {
-                //ChangeState<HallState>(fsm);
                 Debug.Log("Login.unity");
-                _flagLogin = true;
             });
 
-        GameFrameworkMode.GetModule<EventManager>().AddListener<LoginToHallEventArgs>(OnHall);
+        GameFrameworkMode.GetModule<EventManager>().AddListener<StateEventArgs>(OnLogin);
     }
 
     public override void OnExit(FSM<PlayStateContext> fsm)
     {
         base.OnExit(fsm);
         GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab"]);
-        GameFrameworkMode.GetModule<EventManager>().RemoveListener<LoginToHallEventArgs>(OnHall);
+        GameFrameworkMode.GetModule<EventManager>().RemoveListener<StateEventArgs>(OnLogin);
+
+        GameMode.Resource.Asset.UnloadSceneAsync("Assets/Addressable/Hall/Scenes/Login.unity");
     }
 
     public override void OnUpdate(FSM<PlayStateContext> fsm)
     {
         base.OnUpdate(fsm);
-
-        if (_flag)
-        {
-            ChangeState<HallState>(fsm);
-        }
-
-        if (_flagLogin)
-        {
-            _flagLogin = false;
-            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab");
-            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab");
-            GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab");
-            GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab"]);
-        }
     }
     #endregion
 
-    private void OnHall(object sender, IEventArgs e) 
+    private void OnLogin(object sender, IEventArgs e) 
     {
         Debug.Log("OnHall");
-        _flag = true;
+        var args = (StateEventArgs)e;
+        if (args.state == StateEventArgs.State.hall)
+        {
+            ChangeState<HallState>(_fsm);
+        }
     }
 }

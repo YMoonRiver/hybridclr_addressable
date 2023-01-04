@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -70,7 +71,8 @@ namespace Wanderer.GameFramework
             });
             btnSetting.onClick.AddListener(() => {
                 Debug.Log("btnSetting");
-                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SettingUIView.prefab");
+                //GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SettingUIView.prefab");
+                GameMode.Event.Trigger(this, new StateEventArgs() { state = StateEventArgs.State.login });
             });
         }
 
