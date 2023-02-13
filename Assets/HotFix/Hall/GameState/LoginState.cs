@@ -21,7 +21,6 @@ public class LoginState : FSMState<PlayStateContext>
         GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab");
         GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/SystemUIView.prefab");
         GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab");
-        GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab"]);
 
         GameMode.Resource.Asset.LoadSceneAsync("Assets/Addressable/Hall/Scenes/Login.unity", UnityEngine.SceneManagement.LoadSceneMode.Single,
             (obj) =>
@@ -36,6 +35,7 @@ public class LoginState : FSMState<PlayStateContext>
     {
         base.OnExit(fsm);
         GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/LoginUIView.prefab"]);
+        GameMode.UI.Close(GameMode.UI.UIContextMgr["Assets/Addressable/Hall/Prefabs/UI/WordsRollUIView.prefab"],true,true);
         GameFrameworkMode.GetModule<EventManager>().RemoveListener<StateEventArgs>(OnLogin);
 
         GameMode.Resource.Asset.UnloadSceneAsync("Assets/Addressable/Hall/Scenes/Login.unity");

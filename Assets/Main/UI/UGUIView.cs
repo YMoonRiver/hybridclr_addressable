@@ -53,7 +53,7 @@ namespace Wanderer.GameFramework
         public override void OnEnter(IUIContext uiConext, Action<string> callBack = null, params object[] parameters)
         {
             base.OnEnter(uiConext, callBack, parameters);
-            _canvasGroup.blocksRaycasts = true;
+            //_canvasGroup.blocksRaycasts = true;
         }
         /// <summary>
         /// 退出界面
@@ -61,7 +61,7 @@ namespace Wanderer.GameFramework
         public override void OnExit(IUIContext uiConext)
         {
             base.OnExit(uiConext);
-            _canvasGroup.blocksRaycasts = false;
+            //_canvasGroup.blocksRaycasts = false;
         }
         /// <summary>
         /// 暂停界面
@@ -69,7 +69,7 @@ namespace Wanderer.GameFramework
         public override void OnPause(IUIContext uiConext)
         {
             base.OnPause(uiConext);
-            _canvasGroup.blocksRaycasts = false;
+            //_canvasGroup.blocksRaycasts = false;
         }
         /// <summary>
         /// 恢复界面
@@ -77,7 +77,7 @@ namespace Wanderer.GameFramework
         public override void OnResume(IUIContext uiConext)
         {
             base.OnResume(uiConext);
-            _canvasGroup.blocksRaycasts = true;
+            //_canvasGroup.blocksRaycasts = true;
         }
 
         /// <summary>
@@ -87,7 +87,7 @@ namespace Wanderer.GameFramework
         public override void OnAnimationStart(IUIAnimation uiAnim)
         {
             base.OnAnimationStart(uiAnim);
-            _canvasGroup.blocksRaycasts = false;
+            //_canvasGroup.blocksRaycasts = false;
         }
         /// <summary>
         /// 动画结束
@@ -96,7 +96,7 @@ namespace Wanderer.GameFramework
         public override void OnAnimationComplete(IUIAnimation uiAnim)
         {
             base.OnAnimationComplete(uiAnim);
-            _canvasGroup.blocksRaycasts = true;
+            //_canvasGroup.blocksRaycasts = true;
         }
 
         /// <summary>
