@@ -21,7 +21,7 @@ namespace Wanderer.GameFramework
             return _liveTime;
         }
 
-        public void RunAction(float interval,Action onInvokeCallback, float repeatRate=0.0f)
+        public void RunAction(float interval, Action onInvokeCallback, float repeatRate=0.0f)
         {
             _onInvokeCallback = onInvokeCallback;
             if (repeatRate > 0)
@@ -30,7 +30,7 @@ namespace Wanderer.GameFramework
             }
             else
             {
-                Invoke("InvokeAction",interval);
+                Invoke("InvokeAction", interval);
             }
         }
 

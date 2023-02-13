@@ -1,3 +1,5 @@
+using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -32,5 +34,11 @@ namespace Wanderer.GameFramework
             base.OnFree(uiContext);
         }
 
+        public override void OnEnter(IUIContext uiConext, Action<string> callBack = null, params object[] parameters)
+        {
+            base.OnEnter(uiConext, callBack, parameters);
+            transform.localScale = Vector3.zero;
+            transform.DOScale(new Vector3(1, 1, 1), .5f);
+        }
     }
 }

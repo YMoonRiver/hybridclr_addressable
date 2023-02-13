@@ -45,7 +45,7 @@ namespace Wanderer.GameFramework
         {
             base.OnEnter(uiConext, callBack, parameters);
             transform.localScale = Vector3.zero;
-            transform.DOScale(new Vector3(1, 1, 1), 1);
+            transform.DOScale(new Vector3(1, 1, 1), .5f);
         }
     }
 }

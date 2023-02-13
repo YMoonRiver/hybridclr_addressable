@@ -1,4 +1,5 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -19,6 +20,12 @@ namespace Wanderer.GameFramework
         public override void OnFree(IUIContext uiContext)
         {
             base.OnFree(uiContext);
+        }
+
+        public override void OnEnter(IUIContext uiConext, Action<string> callBack = null, params object[] parameters)
+        {
+            base.OnEnter(uiConext, callBack, parameters);
+            //_canvasGroup.blocksRaycasts = false;
         }
     }
 }
