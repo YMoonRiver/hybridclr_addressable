@@ -37,6 +37,8 @@
     <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
     <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
     <type fullname="System.Enum" preserve="all" />
+    <type fullname="System.IDisposable" preserve="all" />
+    <type fullname="System.IObservable`1" preserve="all" />
     <type fullname="System.Object" preserve="all" />
     <type fullname="System.ParamArrayAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
@@ -45,6 +47,12 @@
     <type fullname="System.Security.Permissions.SecurityAction" preserve="all" />
     <type fullname="System.Security.Permissions.SecurityPermissionAttribute" preserve="all" />
     <type fullname="System.Security.UnverifiableCodeAttribute" preserve="all" />
+    <type fullname="System.TimeSpan" preserve="all" />
+  </assembly>
+  <assembly fullname="UniRx">
+    <type fullname="UniRx.DisposableExtensions" preserve="all" />
+    <type fullname="UniRx.Observable" preserve="all" />
+    <type fullname="UniRx.ObservableExtensions" preserve="all" />
   </assembly>
   <assembly fullname="Unity.TextMeshPro">
     <type fullname="TMPro.TextMeshProUGUI" preserve="all" />

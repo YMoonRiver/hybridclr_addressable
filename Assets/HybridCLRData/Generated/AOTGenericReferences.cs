@@ -6,6 +6,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 
 	// {{ AOT generic type
 	//System.Action`1<System.Object>
+	//System.Action`1<System.Int64>
 	//System.Action`2<System.Object,System.Object>
 	//System.Action`2<System.Object,System.Int32>
 	//UnityEngine.Events.UnityAction`1<System.Byte>
@@ -18,6 +19,8 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	public void RefMethods()
 	{
 		// System.Object[] System.Array::Empty<System.Object>()
+		// System.Object UniRx.DisposableExtensions::AddTo<System.Object>(System.Object,UnityEngine.Component)
+		// System.IDisposable UniRx.ObservableExtensions::Subscribe<System.Int64>(System.IObservable`1<System.Int64>,System.Action`1<System.Int64>)
 		// System.Object UnityEngine.Component::GetComponent<System.Object>()
 		// System.Object UnityEngine.GameObject::AddComponent<System.Object>()
 		// System.Void Wanderer.GameFramework.EventManager::AddListener<System.Object>(System.Action`2<System.Object,Wanderer.GameFramework.IEventArgs>)
