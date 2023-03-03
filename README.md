@@ -1,4 +1,4 @@
-# 新增GameFramework Addressables 改版
+# 新增GameFramework Addressables 开箱即用
 # 新增循环列表
 
 ### UnityGameFramework  
