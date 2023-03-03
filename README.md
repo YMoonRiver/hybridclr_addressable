@@ -11,12 +11,6 @@
 
 ---
 
-### Demo
-`XLua Demo`实现: [https://github.com/coding2233/UnityGameFramework-xLua](https://github.com/coding2233/UnityGameFramework-xLua)  
-`ILRuntime`为老版实现，需要在当前仓库切换到`ILRuntime`分支
-
----
-
 ### Package
 
 `Addressable` `1.17.17+`
