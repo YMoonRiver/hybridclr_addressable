@@ -1,4 +1,4 @@
-# 新增GameFramework Addressables 改版
+# 新增GameFramework Addressables 开箱即用
 # 新增循环列表
 
 ### UnityGameFramework  
@@ -7,14 +7,7 @@
 
 `GameFramework`：[https://github.com/EllanJiang/GameFramework](https://github.com/EllanJiang/GameFramework)  
 `UniRx`: [https://github.com/neuecc/UniRx](https://github.com/neuecc/UniRx)  
-`UniTask`: [https://github.com/Cysharp/UniTask](https://github.com/Cysharp/UniTask)  
-`odin-serializer`: [https://github.com/TeamSirenix/odin-serializer](https://github.com/TeamSirenix/odin-serializer)  
-
----
-
-### Demo
-`XLua Demo`实现: [https://github.com/coding2233/UnityGameFramework-xLua](https://github.com/coding2233/UnityGameFramework-xLua)  
-`ILRuntime`为老版实现，需要在当前仓库切换到`ILRuntime`分支
+`UniTask`: [https://github.com/Cysharp/UniTask](https://github.com/Cysharp/UniTask)   
 
 ---
 
