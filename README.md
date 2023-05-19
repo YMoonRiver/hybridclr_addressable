@@ -1,6 +1,6 @@
 # 新增GameFramework Addressables 开箱即用
 # 新增循环列表
-
+# 后续会同步维护一个Go云原生游戏服务器，使用最新的工具，具备3H，喜欢点个免费的赞吧，加关注不迷路。
 ### UnityGameFramework  
 
 **此框架参考:**   
