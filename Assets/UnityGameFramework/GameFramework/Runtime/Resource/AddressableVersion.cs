@@ -156,6 +156,7 @@ namespace Wanderer.GameFramework
                 if (useNewIp && InternalId_.Contains(resServerOriIp))
                 {
                     InternalId_ = InternalId_.Replace(resServerOriIp, resServerNewIp);
+                    InternalId_ = InternalId_.Replace('\\' , '/');
                     Debug.Log("InternalId_" + InternalId_);
                 }
 

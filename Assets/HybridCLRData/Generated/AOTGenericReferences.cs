@@ -1,33 +1,40 @@
 public class AOTGenericReferences : UnityEngine.MonoBehaviour
 {
 
+	// {{ AOT assemblies
+	// GameFramework.dll
+	// UniRx.dll
+	// UnityEngine.CoreModule.dll
+	// mscorlib.dll
+	// }}
+
 	// {{ constraint implement type
 	// }} 
 
-	// {{ AOT generic type
-	//System.Action`1<System.Object>
-	//System.Action`1<System.Int64>
-	//System.Action`2<System.Object,System.Object>
-	//System.Action`2<System.Object,System.Int32>
-	//UnityEngine.Events.UnityAction`1<System.Byte>
-	//UnityEngine.Events.UnityEvent`1<System.Byte>
-	//Wanderer.GameFramework.FSM`1<System.Object>
-	//Wanderer.GameFramework.FSMState`1<System.Object>
-	//Wanderer.GameFramework.GameEventArgs`1<System.Object>
+	// {{ AOT generic types
+	// System.Action<object>
+	// System.Action<long>
+	// System.Action<object,object>
+	// System.Action<object,int>
+	// UnityEngine.Events.UnityAction<byte>
+	// UnityEngine.Events.UnityEvent<byte>
+	// Wanderer.GameFramework.FSM<object>
+	// Wanderer.GameFramework.FSMState<object>
+	// Wanderer.GameFramework.GameEventArgs<object>
 	// }}
 
 	public void RefMethods()
 	{
-		// System.Object[] System.Array::Empty<System.Object>()
-		// System.Object UniRx.DisposableExtensions::AddTo<System.Object>(System.Object,UnityEngine.Component)
-		// System.IDisposable UniRx.ObservableExtensions::Subscribe<System.Int64>(System.IObservable`1<System.Int64>,System.Action`1<System.Int64>)
-		// System.Object UnityEngine.Component::GetComponent<System.Object>()
-		// System.Object UnityEngine.GameObject::AddComponent<System.Object>()
-		// System.Void Wanderer.GameFramework.EventManager::AddListener<System.Object>(System.Action`2<System.Object,Wanderer.GameFramework.IEventArgs>)
-		// System.Void Wanderer.GameFramework.EventManager::RemoveListener<System.Object>(System.Action`2<System.Object,Wanderer.GameFramework.IEventArgs>)
-		// System.Void Wanderer.GameFramework.FSManager::AddFSM<System.Object>()
-		// System.Object Wanderer.GameFramework.FSManager::GetFSM<System.Object>()
-		// System.Void Wanderer.GameFramework.FSMState`1<System.Object>::ChangeState<System.Object>(Wanderer.GameFramework.FSM`1<System.Object>)
-		// System.Object Wanderer.GameFramework.GameFrameworkMode::GetModule<System.Object>()
+		// object[] System.Array.Empty<object>()
+		// object UniRx.DisposableExtensions.AddTo<object>(object,UnityEngine.Component)
+		// System.IDisposable UniRx.ObservableExtensions.Subscribe<long>(System.IObservable<long>,System.Action<long>)
+		// object UnityEngine.Component.GetComponent<object>()
+		// object UnityEngine.GameObject.AddComponent<object>()
+		// System.Void Wanderer.GameFramework.EventManager.AddListener<object>(System.Action<object,Wanderer.GameFramework.IEventArgs>)
+		// System.Void Wanderer.GameFramework.EventManager.RemoveListener<object>(System.Action<object,Wanderer.GameFramework.IEventArgs>)
+		// System.Void Wanderer.GameFramework.FSManager.AddFSM<object>()
+		// object Wanderer.GameFramework.FSManager.GetFSM<object>()
+		// System.Void Wanderer.GameFramework.FSMState<object>.ChangeState<object>(Wanderer.GameFramework.FSM<object>)
+		// object Wanderer.GameFramework.GameFrameworkMode.GetModule<object>()
 	}
 }

@@ -73,7 +73,7 @@ namespace HybridCLR.Editor
             string assetHybirdPathDst = $"{Application.dataPath}/Addressable/Hall/Hybird";
             Directory.CreateDirectory(assetHybirdPathDst);
 
-            foreach (var dll in SettingsUtil.HotUpdateAssemblyFiles)
+            foreach (var dll in SettingsUtil.HotUpdateAssemblyFilesIncludePreserved)
             {
                 string dllPath = $"{hotfixDllSrcDir}/{dll}";
                 string dllBytesPath = $"{assetHybirdPathDst}/{dll}.bytes";
