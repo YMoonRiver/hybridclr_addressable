@@ -22,14 +22,28 @@ namespace Wanderer.GameFramework
 
         public override async void CheckUpdate(Action<bool> needUpdate)
         {
+            string _catalogPath = Application.persistentDataPath + "/com.unity.addressables";
+            if (Directory.Exists(_catalogPath))
+            {
+                try
+                {
+                    Directory.Delete(_catalogPath, true);
+                    Debug.Log("delete catalog cache done!");
+                }
+                catch (Exception e)
+                {
+                    Debug.LogError(e.ToString());
+                }
+            }
+
             //请求配置文件
             var config = GameFrameworkMode.GetModule<ConfigManager>();
             string configURI = 
                 $"{config["ConfigPath"]}/{Application.platform}/DefaultConfig.json";
-            Debug.Log(configURI);
+            Log.Info(configURI);
             var configHandle = GameFrameworkMode.GetModule<WebRequestManager>().RequestText(configURI, null);
             await configHandle;
-            Debug.Log($"configHandle.Result: {configHandle.Result}");
+            Log.Info($"configHandle.Result: {configHandle.Result}");
             config.SetData(configHandle.Result);
 
             var res = GameFrameworkMode.GetModule<ResourceManager>();
@@ -41,7 +55,7 @@ namespace Wanderer.GameFramework
             Addressables.InternalIdTransformFunc = InternalIdTransformFunc;
 
             //检查更新信息
-            Debug.Log("AddressableVersion CheckUpdate");
+            Log.Info("AddressableVersion CheckUpdate");
             var initHandle = InitializeAsync();
             await initHandle.Task;
             if (_isCheckUpdate)
@@ -49,15 +63,17 @@ namespace Wanderer.GameFramework
                 Addressables.Release(_checkHandle);
                 _isCheckUpdate = false;
             }
+            Log.Info("CheckForCatalogUpdates");
             _checkHandle = CheckForCatalogUpdates(false);
             _isCheckUpdate = true;
             await _checkHandle.Task;
             Log.Info($"Check Result Count:{_checkHandle.Result.Count}");
+            
             foreach (var item in _checkHandle.Result)
             {
                 Log.Info($"Check Result :{item}");
             }
-
+            
             needUpdate?.Invoke(_checkHandle.Result.Count > 0);
         }
 
@@ -129,7 +145,7 @@ namespace Wanderer.GameFramework
                                 float remainingTime = (float)((downloadKBSize / downloadSpeed) / downloadSpeed - useTime);
                                 //回调
                                 callback?.Invoke(percentage, downloadKBSize, downloadSpeed, remainingTime);
-                                await Task.Delay(100);
+                                await Task.Delay(300);
                             }
                             Addressables.Release(downloadHandle);
                         }
