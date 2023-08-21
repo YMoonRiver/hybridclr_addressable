@@ -26,6 +26,7 @@ namespace Wanderer.GameFramework
             var config = GameFrameworkMode.GetModule<ConfigManager>();
             string configURI = 
                 $"{config["ConfigPath"]}/{Application.platform}/DefaultConfig.json";
+            Debug.Log(configURI);
             var configHandle = GameFrameworkMode.GetModule<WebRequestManager>().RequestText(configURI, null);
             await configHandle;
             Debug.Log($"configHandle.Result: {configHandle.Result}");
