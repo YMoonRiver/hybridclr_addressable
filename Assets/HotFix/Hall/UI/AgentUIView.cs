@@ -44,8 +44,8 @@ namespace Wanderer.GameFramework
         public override void OnEnter(IUIContext uiConext, Action<string> callBack = null, params object[] parameters)
         {
             base.OnEnter(uiConext, callBack, parameters);
-            transform.localScale = Vector3.zero;
-            transform.DOScale(new Vector3(1, 1, 1), .5f);
+            transform.Find("Panel").localScale = Vector3.zero;
+            transform.Find("Panel").DOScale(new Vector3(1, 1, 1), .5f);
         }
     }
 }
