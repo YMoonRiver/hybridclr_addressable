@@ -59,7 +59,23 @@ namespace Wanderer.GameFramework
             });
             btnActivity.onClick.AddListener(() => {
                 Debug.Log("btnActivity");
-                GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/ActivityUIView.prefab");
+                var uiTween = GameMode.UI.Push("Assets/Addressable/Hall/Prefabs/UI/ActivityUIView.prefab");
+
+                uiTween.NextUIView.transform.Find("Panel").localScale = Vector3.zero;
+                //tween sample1
+                var ds = DOTween.Sequence();
+                ds.Append(uiTween.NextUIView.transform.Find("Panel").DOScale(1, 0.5f))
+                .AppendCallback(()=> {
+                    Log.Info("DOTween");
+                });
+                uiTween.SetAnimation(new UGUIAnimation().SetAnimation(ds));
+                //tween sample2
+                //IEnumerator Call2 = Call(uiTween);
+                //uiTween.SetAnimation(new UGUIAnimation().SetAnimation(
+                //    Call2
+                //    ));
+
+                uiTween.RunAnimation();
             });
             btnInfo.onClick.AddListener(() => {
                 Debug.Log("btnInfo");
@@ -79,6 +95,14 @@ namespace Wanderer.GameFramework
         public override void OnFree(IUIContext uiContext)
         {
             base.OnFree(uiContext);
+        }
+
+
+        IEnumerator Call(IUITween ut)
+        {
+            ut.NextUIView.transform.Find("Panel").localScale = Vector3.zero;
+            yield return new WaitForEndOfFrame();
+            ut.NextUIView.transform.Find("Panel").DOScale(1, 0.5f);
         }
 
     }
