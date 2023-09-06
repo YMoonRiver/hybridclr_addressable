@@ -43,9 +43,9 @@ namespace Wanderer.GameFramework
 		{
 			get
 			{
-				//获取数据
-				//_mute=GameFrameworkMode.GetModule<SettingManager>().Get<bool>($"AudioManager.AudioPlayer.Mute", _mute);
-				return _mute;
+                //获取数据
+                _mute = GameFrameworkMode.GetModule<SettingManager>().Get<bool>($"AudioManager.AudioPlayer.Mute", _mute);
+                return _mute;
 			}
 			set
 			{
@@ -56,9 +56,9 @@ namespace Wanderer.GameFramework
 					item.Mute = _mute;
 				}
 
-				//保存数据
-				//GameFrameworkMode.GetModule<SettingManager>().Set<bool>($"AudioManager.AudioPlayer.Mute", _mute);
-			}
+                //保存数据
+                GameFrameworkMode.GetModule<SettingManager>().Set<bool>($"AudioManager.AudioPlayer.Mute", _mute);
+            }
 		}
 
 		private float _volume = 1.0f;
